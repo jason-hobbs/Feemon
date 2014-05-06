@@ -11,9 +11,19 @@
     <%= csrf_meta_tags %>
   </head>
 
-  <body>
 
-    <%= yield %>
+  <body>
+    <header>
+      <%= render 'layouts/navigation' %>
+    </header>
+    <main role="main">
+       <%= render 'layouts/messages' %>
+       <%= yield %>
+    </main>
     <%= javascript_include_tag "application" %>
   </body>
+  
+
+    
+    
 </html>
