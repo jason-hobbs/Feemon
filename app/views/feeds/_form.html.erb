@@ -11,19 +11,36 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+
+<div class="row left">
+  <div class="small-12 columns">
+    <%= f.label "Feed Title", class: "bold" %><br>
+    <%= f.text_field :title, :size=>"50", class: "radius" %>
   </div>
-  <div class="field">
-    <%= f.label :site %><br>
-    <%= f.text_field :site %>
+</div>
+
+
+<div class="row left">
+  <div class="small-12 columns">
+    <%= f.label "Main URL of site", class: "bold" %><br>
+    <%= f.text_field :site, class: "radius" %>
   </div>
-  <div class="field">
-    <%= f.label :url %><br>
-    <%= f.text_field :url %>
+</div>
+
+<div class="row left">
+  <div class="small-12 columns">
+    <%= f.label "Feed URL", class: "bold" %><br>
+    <%= f.text_field :url, class: "radius" %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+</div>
+ 
+
+<div class="row left">
+  <div class="small-12 columns"> 
+
+  <%= f.submit class: 'button tiny radius' %>
+
+
+
 <% end %>
+
