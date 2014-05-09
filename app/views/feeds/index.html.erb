@@ -16,11 +16,10 @@
   <tbody>
     <% @feeds.each do |feed| %>
       <tr>
-        <td><%= feed.title %></td>
+        <td><%= link_to feed.title, feed %></td>
         <td><%= feed.site %></td>
         <td><%= feed.url %></td>
-        <td><%= link_to 'Show', feed %> | 
-         <%= link_to 'Edit', edit_feed_path(feed) %> |
+        <td> <%= link_to 'Edit', edit_feed_path(feed) %> |
          <%= link_to 'Destroy', feed, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
