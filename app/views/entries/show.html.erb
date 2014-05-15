@@ -1,0 +1,31 @@
+<div class="bodywrapper">
+<h1>Listing Entries for <%= @feed.title %> </h1>
+
+
+
+<table>
+  <thead>
+    <tr class="liner">
+      <th>Title</th>
+      <th>Link</th>
+      <th>Published</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @entries.each do |entry| %>
+      <tr>
+        <td><%= entry.title %></td>
+        <td><%= entry.link %></td>
+        <td><%= entry.published %></td>
+        <td> <%= link_to 'Edit', edit_entry_path(entry) %> |
+         <%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+<%= link_to 'Back', feeds_path, class: "button tiny radius" %>
+</div>
