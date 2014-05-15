@@ -1,6 +1,6 @@
-require "feedjira"
-require "date"
-require "pg"
+require "./feedjira"
+require "./date"
+require "./pg"
 
 conn = PG.connect(
         :dbname => 'feemon_development',
