@@ -3,7 +3,7 @@ require "date"
 require "pg"
 
 conn = PG.connect(
-        :dbname => 'feemon_development',
+        :dbname => 'feemon',
         :user => 'root',
         :password => 'naginata')
 
