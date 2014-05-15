@@ -1,13 +1,13 @@
-require "./feedjira"
-require "./date"
-require "./pg"
+require "feedjira"
+require "date"
+require "pg"
 
 conn = PG.connect(
         :dbname => 'feemon_development',
         :user => 'root',
         :password => 'naginata')
 
-conn.prepare("insert_entry", "insert into entries (title, description, link, feeds_id, published, created_at, updated_at) values ($1, $2, $3, $4, $5, $6, $7)")
+conn.prepare("insert_entry", "insert into entries (title, description, link, feed_id, published, created_at, updated_at) values ($1, $2, $3, $4, $5, $6, $7)")
 conn.prepare("update_feed_time", "update feeds set updated_at = $1 where id = $2")
 
 conn.exec( "SELECT id,url,updated_at FROM feeds" ) do |result|
