@@ -6,4 +6,13 @@ class User < ActiveRecord::Base
                   uniqueness: { case_sensitive: false }
   has_many :feeds
   belongs_to :feeds
+
+  def gravatar_id
+  	Digest::MD5::hexdigest(email.downcase)
+  end
+
+  def self.authenticate(email, password)
+  	user = User.find_by(email: email)
+  	user && user.authenticate(password)
+  end
 end

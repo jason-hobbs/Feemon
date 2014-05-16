@@ -5,6 +5,17 @@ Rails.application.routes.draw do
 
   resources :feeds
 
+  get 'signin' => 'sessions#new'
+  resource :session
+
+  controller :sessions do
+    get 'login' => :new
+    post 'login' => :create
+    delete 'logout' => :destroy
+  end
+
+  get 'signup' => 'users#new'
+
   root "static#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
