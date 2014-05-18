@@ -1,5 +1,4 @@
 <!-- <li class="divider"></li> -->
-<li><%= link_to 'About', "#" %></li>
 <% if session[:user_id] %>
   <li><%= link_to @user.name, @user %></li>
 <% else %>

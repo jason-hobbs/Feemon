@@ -1,10 +1,13 @@
 class FeedsController < ApplicationController
   before_action :set_feed, only: [:show, :edit, :update, :destroy]
+  before_action :get_user
 
   # GET /feeds
   # GET /feeds.json
   def index
-    #@feeds = Feed.all
+    if session[:user_id]    
+      @user = current_user
+    end
     @feeds = Feed.order(:title)
   end
 
@@ -72,4 +75,10 @@ class FeedsController < ApplicationController
     def feed_params
       params.require(:feed).permit(:title, :site, :url)
     end
+
+    def get_user
+    if session[:user_id]    
+      @user = current_user
+    end
+  end
 end
