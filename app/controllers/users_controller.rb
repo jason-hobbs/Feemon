@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :require_signin, except: [:new, :create]
   before_action :require_correct_user, only: [:edit, :update]
-  before_action :require_admin, only: [:destroy]
+  before_action :require_admin, only: [:destroy, :index]
   before_action :get_user
 
 def index    
@@ -9,6 +9,9 @@ def index
 end
 
 def new
+  if current_user
+    redirect_to @user, notice: "already signed in!"
+  end
 	@user=User.new
   @feeds = Feed.all
 end
