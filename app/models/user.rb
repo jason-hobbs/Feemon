@@ -4,8 +4,8 @@ class User < ActiveRecord::Base
   validates :email, presence: true,                   
                   format: /\A\S+@\S+\z/,
                   uniqueness: { case_sensitive: false }
-  has_many :feeds
-  belongs_to :feeds
+  has_many :userfeeds, dependent: :destroy
+  has_many :feeds, through: :userfeeds
 
   def gravatar_id
   	Digest::MD5::hexdigest(email.downcase)
