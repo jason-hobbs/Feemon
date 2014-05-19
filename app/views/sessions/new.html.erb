@@ -4,20 +4,31 @@
 </header>
 
 <%= form_tag(session_path) do %>
-  <fieldset>
-    <ol>
-      <li class="required">
-        <%= label_tag :email %>
-        <%= email_field_tag :email, nil, autofocus: true, size: 40, required: true %>
-      </li>
-      <li class="required">
-        <%= label_tag :password %>
-        <%= password_field_tag :password, nil, size: 40, required: true %>
-      </li>
-    </ol>
-    <p>
-      <%= submit_tag 'Sign In' %>
-    </p>
-  </fieldset>
-<% end %>
+
+
+
+<div class="row left">
+  <div class="small-12 columns">
+    <%= label_tag :email %>
+    <%= email_field_tag :email, nil, autofocus: true, size: 40, required: true %>
+  </div>
+</div>
+
+
+
+<div class="row left">
+  <div class="small-12 columns">
+    <%= label_tag :password %>
+    <%= password_field_tag :password, nil, size: 40, required: true %>
+  </div>
+</div>
+
+
+
+<div class="row left">
+  <div class="small-12 columns"> 
+    <%= submit_tag "Sign In", class: 'button tiny radius' %>
+  </div>
+</div>
+<% end %>    
 </div>
