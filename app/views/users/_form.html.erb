@@ -41,6 +41,11 @@
   </div>
 </div>
 
+<div class="row left">
+  <div class="small-12 columns">
+    <%= f.collection_check_boxes(:feed_ids, @feeds, :id, :title) %>
+  </div>
+</div>
 
 <div class="row left">
   <div class="small-12 columns"> 

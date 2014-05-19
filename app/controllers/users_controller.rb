@@ -4,13 +4,13 @@ class UsersController < ApplicationController
   before_action :require_admin, only: [:destroy]
   before_action :get_user
 
-def index
-    
+def index    
     @users = User.all
 end
 
 def new
 	@user=User.new
+  @feeds = Feed.all
 end
 
 def show
@@ -29,15 +29,17 @@ def create
 
 	def edit
   		@user = User.find(params[:id])
+      @feeds = Feed.all
 	end
 
 	def update
-  		@user = User.find(params[:id])
+  	@user = User.find(params[:id])
+    @feeds = Feed.all
 		if @user.update(user_params)
-    		redirect_to @user, notice: "Account successfully updated!"
-  		else
-    		render :edit
-  		end
+    	redirect_to @user, notice: "Account successfully updated!"
+  	else
+    	render :edit
+  	end
 	end
 
 	def destroy
