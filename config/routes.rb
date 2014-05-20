@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
   resources :users
 
-  resources :entries
+  
 
-  resources :feeds
+  resources :feeds do
+    resources :entries
+  end
+
 
   get 'signin' => 'sessions#new'
   resource :session
