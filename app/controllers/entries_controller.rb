@@ -3,7 +3,7 @@ class EntriesController < ApplicationController
   before_action :get_user
 
   def show
-	  @entries = @feed.entries.order(published: :desc)
+	  @entry = @feed.entries.find_by(id: params[:id])
   end
 
   def index

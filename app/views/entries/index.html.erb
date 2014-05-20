@@ -16,7 +16,7 @@
   <tbody>
     <% @entries.each do |entry| %>
       <tr>
-        <td><%= entry.title %></td>
+        <td><%= link_to entry.title, feed_entry_path(@feed, entry) %></td>
         <td><%= entry.link %></td>
         <td><%= entry.published %></td>
         <td> <%= link_to 'Edit', "#" %> |
