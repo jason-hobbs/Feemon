@@ -1,3 +1,10 @@
 <div class="bodywrapper">
-  <%= @entry.title %>
+  <h3><%= @entry.title %></h3>
+  
+  <br>
+  <div class="row left">
+  <div class="small-12 columns">
+  <%= raw @entry.description %>
+  </div>
+  </div>
 </div>
