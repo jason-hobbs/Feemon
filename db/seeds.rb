@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 User.create(:name=>'Taylor Hobbs', :email=>'taylor@feemon.com', :password=>'Testing1', :admin=>true)
 User.create(:name=>'grimmstede', :email=>'grimmstede@feemon.com', :password=>'Testing1', :admin=>true)
+User.create(:name=>'Test User', :email=>'test@test.com', :password=>'Testing1', :admin=>false)
 Feed.create(:title=>'Arstechnica', :site=>'www.arstechnica.com', :url=>'feeds.arstechnica.com/arstechnica/BAaf', :created_at=>'1900-01-01 00:00:00', :updated_at=>'1900-01-01 00:00:00')
 Feed.create(:title=>'Desctructoid', :site=>'www.destructoid.com', :url=>'feeds.feedburner.com/Destructoid', :created_at=>'1900-01-01 00:00:00', :updated_at=>'1900-01-01 00:00:00')
 Feed.create(:title=>'Drudge Report', :site=>'www.drudgereport.com', :url=>'www.drudgereportfeed.com/rss.xml', :created_at=>'1900-01-01 00:00:00', :updated_at=>'1900-01-01 00:00:00')
