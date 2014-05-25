@@ -15,7 +15,7 @@
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "User Name", class: "bold" %><br>
-    <%= f.text_field :name, :size=>"50", class: "radius" %>
+    <%= f.text_field :name, :size=>"50", class: "radius entry" %>
   </div>
 </div>
 
@@ -23,30 +23,31 @@
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "User Email", class: "bold" %><br>
-    <%= f.text_field :email, class: "radius" %>
+    <%= f.text_field :email, class: "radius entry" %>
   </div>
 </div>
 
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "Password", class: "bold" %><br>
-    <%= f.password_field :password, class: "radius" %>
+    <%= f.password_field :password, class: "radius entry" %>
   </div>
 </div>
  
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "Password Confirmation", class: "bold" %><br>
-    <%= f.password_field :password_confirmation, class: "radius" %>
+    <%= f.password_field :password_confirmation, class: "radius entry" %>
   </div>
 </div>
 
+<% if session[:user_id] %>
 <div class="row left">
   <div class="small-12 columns">
     <%= f.collection_check_boxes(:feed_ids, @feeds, :id, :title) %>
   </div>
 </div>
-
+<%end%>
 <div class="row left">
   <div class="small-12 columns"> 
   <% if @user.new_record? %>

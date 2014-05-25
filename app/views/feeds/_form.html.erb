@@ -12,26 +12,30 @@
   <% end %>
 
 
-<div class="row left">
-  <div class="small-12 columns">
-    <%= f.label "Feed Title", class: "bold" %><br>
-    <%= f.text_field :title, :size=>"50", class: "radius" %>
-  </div>
-</div>
+
+    <div class="row left">
+      <div class="small-12 columns">
+        <%= f.label "Feed Title", class: "bold" %><br>
+        <%= f.text_field :title, :size=>"50", class: "radius entry" %>
+      </div>
+    </div>
+  
 
 
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "Main URL of site", class: "bold" %><br>
-    <%= f.text_field :site, class: "radius" %>
+    <%= f.text_field :site, class: "radius entry" %>
   </div>
+  
 </div>
 
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "Feed URL", class: "bold" %><br>
-    <%= f.text_field :url, class: "radius" %>
+    <%= f.text_field :url, class: "radius entry" %>
   </div>
+  
 </div>
  
 

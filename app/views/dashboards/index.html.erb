@@ -1,10 +1,21 @@
 <div class="bodywrapper">
+
 <h3>Dashboard</h3>
-
-<%= @user.name %><br><br>
-<% @user.feeds.each do |feed| %>
-  <%= feed.title %><br>
-<% end %>
-
+<div class="row left">
+  <div class="small-9 columns">
+    <%= @user.name %><br><br>
+    <% @user.feeds.each do |feed| %>
+      <%= feed.title %><br>
+    <% end %>
+  </div>
+  <div class="small-3 columns show-for-medium-up">
+    <div class="side-nav ">      
+      <% @user.feeds.each do |feed| %>
+        <li><%= feed.title %></li>
+      <% end %>
+    </div>
+  </div>
+  
+</div>
 
 </div>
