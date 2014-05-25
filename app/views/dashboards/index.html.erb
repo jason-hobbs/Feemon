@@ -1,0 +1,10 @@
+<div class="bodywrapper">
+<h3>Dashboard</h3>
+
+<%= @user.name %><br><br>
+<% @user.feeds.each do |feed| %>
+  <%= feed.title %><br>
+<% end %>
+
+
+</div>
