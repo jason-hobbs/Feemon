@@ -5,8 +5,10 @@ class DashboardsController < ApplicationController
 
 
   def index
-    if session[:user_id]    
-      @user = current_user
+    @counts = Hash.new
+    @user.feeds.each do |feed| 
+      number = feed.entries.where("published > ?", @user.lastvisit)
+      @counts[feed.title] = number.size 
     end
   end
 

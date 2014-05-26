@@ -3,15 +3,18 @@
 <h3>Dashboard</h3>
 <div class="row left">
   <div class="small-9 columns">
-    <%= @user.name %><br><br>
+    <%= @user.name %><br>
+    <%= @user.lastvisit %><br><br>
     <% @user.feeds.each do |feed| %>
       <%= feed.title %><br>
     <% end %>
+    
+    
   </div>
   <div class="small-3 columns show-for-medium-up">
     <div class="side-nav ">      
-      <% @user.feeds.each do |feed| %>
-        <li><%= feed.title %></li>
+      <% @counts.each do |name, amount| %>
+        <%= link_to "#{name}: #{amount}", @feed %><br>
       <% end %>
     </div>
   </div>
