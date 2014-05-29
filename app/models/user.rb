@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
                   uniqueness: { case_sensitive: false }
   has_many :userfeeds, dependent: :destroy
   has_many :feeds, through: :userfeeds
+  has_many :dashboards, dependent: :destroy
 
   def gravatar_id
   	Digest::MD5::hexdigest(email.downcase)
