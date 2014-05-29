@@ -1,0 +1,27 @@
+<div class="bodywrapper">
+<h1>Unread Entries for <%= @feed.title %> for <%= @user.name %> </h1>
+
+
+
+<table>
+  <thead>
+    <tr class="liner">
+      <th>Title</th>
+      
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @unread.each do |entry| %>
+      <tr>
+        <td><%= link_to entry.entry_title, feed_entry_path(@feed, entry.entry_id) %></td>
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+
+</div>
