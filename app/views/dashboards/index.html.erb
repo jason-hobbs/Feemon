@@ -5,9 +5,9 @@
   <div class="small-9 columns">
     <%= @user.name %><br>
     <%= @user.lastvisit %><br><br>
-    <% @user.feeds.each do |feed| %>
-      <%= feed.title %><br>
-    <% end %>
+    <% @counts.each do |name, amount| %>
+        <%= link_to "#{name}: #{amount}", dashfeed_path(@ids[name]) %><br>
+      <% end %>
     
     
   </div>

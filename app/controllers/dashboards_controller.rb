@@ -6,8 +6,10 @@ class DashboardsController < ApplicationController
 
   def index
     @counts = Hash.new
+    @ids = Hash.new
     @user.feeds.each do |feed|
       @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).size
+      @ids[feed.title] = feed.id
     end
   end
 

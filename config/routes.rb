@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   
   
-  match '/dashfeed/:feed_id', :action => 'dashfeed', :via => [:get], :controller => 'dashboards'
+  match '/dashfeed/:feed_id', :action => 'dashfeed', :via => [:get], :controller => 'dashboards', as: :dashfeed
 
 
 
