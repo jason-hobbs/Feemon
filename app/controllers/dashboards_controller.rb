@@ -1,16 +1,12 @@
 class DashboardsController < ApplicationController
   before_action :require_signin
   before_action :get_user
+  before_action :get_counts
   before_action :get_feed, only: [:dashfeed]
 
 
   def index
-    @counts = Hash.new
-    @ids = Hash.new
-    @user.feeds.each do |feed|
-      @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).size
-      @ids[feed.title] = feed.id
-    end
+    
   end
 
 
@@ -22,6 +18,15 @@ class DashboardsController < ApplicationController
 
   private
 
+  def get_counts
+    @counts = Hash.new
+    @ids = Hash.new
+    @user.feeds.each do |feed|
+      @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).size
+      @ids[feed.title] = feed.id
+    end
+  end
+  
   def get_user
     if session[:user_id]    
       @user = current_user
