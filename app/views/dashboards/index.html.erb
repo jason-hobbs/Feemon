@@ -1,24 +1,17 @@
 <div class="bodywrapper">
+  
+  <div class="row left">
 
-<h3>Dashboard</h3>
-<div class="row left">
-  <div class="small-9 columns">
-    <%= @user.name %><br>
-    <%= @user.lastvisit %><br><br>
-    <% @counts.each do |name, amount| %>
-        <%= link_to "#{name}: #{amount}", dashfeed_path(@ids[name]) %><br>
-      <% end %>
-    
-    
-  </div>
-  <div class="small-3 columns show-for-medium-up">
+  <div class="small-3 columns show-for-medium-up right-collapse">
     <div class="side-nav ">      
       <% @counts.each do |name, amount| %>
-        <%= link_to "#{name}: #{amount}", @feed %><br>
+        <%= link_to "#{name}: #{amount}", dashfeed_path(@ids[name]) %><br>
       <% end %>
     </div>
   </div>
-  
-</div>
 
+  <div class="small-12 medium-9 columns">
+    
+  </div>
+  </div>
 </div>
