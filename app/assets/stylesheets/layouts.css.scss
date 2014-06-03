@@ -59,9 +59,28 @@ table {
 }
 
 .side-nav {	
-	.entry {
-	  margin-top: 5px;
-	  margin-bottom: 5px;
+	.wrap-nav {
+	  height: 30px;
+	  width: 200px;
+	  padding: 5px;
+	  padding-top: 7px;
+	  
+	  
+	}
+	/*.wrap-nav:hover {
+	  background-color: #d7d7d7;	 
+	  border-radius:5px;
+	}*/
+	.entry {	  
+	  float: left;
+	}
+	.entry-right {
+	  float: right;
+	}
+	.active {
+      background-color: #2299BB;
+      border-radius:5px;
+      color: #fff;
 	}
 
 }

@@ -3,14 +3,7 @@
 
 <div class="row left">
 
-<div class="small-3 columns show-for-medium-up right-collapse">
-    <div class="side-nav ">      
-      <% @counts.each do |name, amount| %>
-        <%= link_to "#{name}: #{amount}", dashfeed_path(@ids[name]) %><br>
-      <% end %>
-    </div>
-  </div>
-
+<%= render 'layouts/sidebar' %>
 
 
 
