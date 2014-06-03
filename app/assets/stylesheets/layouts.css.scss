@@ -58,14 +58,16 @@ table {
   
 }
 
-.side-nav {	
+.side-nav {
+    a:link {
+      text-decoration: none;
+      color: #fff;
+    }
 	.wrap-nav {
 	  height: 30px;
-	  width: 200px;
+	  /*width: 200px;*/
 	  padding: 5px;
-	  padding-top: 7px;
-	  
-	  
+	  padding-top: 7px;	  
 	}
 	/*.wrap-nav:hover {
 	  background-color: #d7d7d7;	 
@@ -82,5 +84,4 @@ table {
       border-radius:5px;
       color: #fff;
 	}
-
 }
