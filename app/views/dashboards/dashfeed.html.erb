@@ -3,34 +3,12 @@
 
 <div class="row left">
 
-<%= render 'layouts/sidebar' %>
 
+<%= render 'layouts/unread' %>
 
-
-  <div class="small-12 medium-9 columns">
-<h3>Unread Entries for <%= @feed.title %></h3>
-<table>
-  <thead>
-    <tr class="liner">
-      <th></th>
-      
-      
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @unread.each do |entry| %>
-      <tr>
-        <td><%= link_to entry.entry_title, feed_entry_path(@feed, entry.entry_id) %></td>
-        
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
+ <div class="medium-6 columns">
 
 </div>
-
 
 
 </div>

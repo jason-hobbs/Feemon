@@ -4,6 +4,7 @@ class EntriesController < ApplicationController
   before_action :get_counts, only: [:show]
 
   def show
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id])
 	  @entry = @feed.entries.find_by(id: params[:id])
   end
 
