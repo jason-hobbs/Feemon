@@ -1,7 +1,7 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.428571429;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 15px;
+  /*line-height: 1.428571429;*/
 }
 
 .bodywrapper {
@@ -105,14 +105,20 @@ table {
 	padding-top: 7px;	
 	border-bottom: 1px solid #eee;  
 	
-	/*.wrap-nav:hover {
-	  background-color: #d7d7d7;	 
-	  border-radius:5px;
-	}*/
+	
 	
 	.active {
       background-color: #2299BB;
       border-radius:5px;
       color: #fff;
 	}
+}
+
+.entry-nav:hover {
+  background-color: #d7d7d7;	 
+  border-radius:5px;
+}
+
+.full-size {
+  width: 400px;	
 }
