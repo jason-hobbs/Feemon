@@ -18,14 +18,7 @@ class DashboardsController < ApplicationController
 
   private
 
-  def get_counts
-    @counts = Hash.new
-    @ids = Hash.new
-    @user.feeds.each do |feed|
-      @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).size
-      @ids[feed.title] = feed.id
-    end
-  end
+  
   
   def get_user
     if session[:user_id]    

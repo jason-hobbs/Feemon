@@ -6,6 +6,7 @@ class EntriesController < ApplicationController
   def show
     @unread = @user.dashboards.where("feed_id = ?", params[:feed_id])
 	  @entry = @feed.entries.find_by(id: params[:id])
+    Dashboard.update(params[:id], :read => "1")
   end
 
   def index
@@ -18,14 +19,7 @@ class EntriesController < ApplicationController
 
   private
 
-  def get_counts
-    @counts = Hash.new
-    @ids = Hash.new
-    @user.feeds.each do |feed|
-      @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).size
-      @ids[feed.title] = feed.id
-    end
-  end
+  
 
   def set_feed
     @feed = Feed.find_by!(id: params[:feed_id])
