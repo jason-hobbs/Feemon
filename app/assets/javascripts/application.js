@@ -20,3 +20,11 @@
 window.onload = function() {
         $(document).foundation();
 };
+
+var $window = $(window);
+            $stickyEl = $('.entry-view');
+            var elTop = $stickyEl.offset().top;
+            $window.scroll(function() {
+                var windowTop = $window.scrollTop();
+                $stickyEl.toggleClass('sticky', windowTop > elTop);
+            });
