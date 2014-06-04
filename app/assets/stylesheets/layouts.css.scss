@@ -119,6 +119,23 @@ table {
   border-radius:5px;
 }
 
-.full-size {
-  width: 400px;	
+.active {
+  background-color: #2299BB;
+  border-radius:5px;
+  color: #fff;
+}
+
+.active:hover {
+  background-color: #2299BB;
+  border-radius:5px;
+  color: #fff;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.scrollable {
+  max-height: 2050px;
+    overflow-y: scroll;
 }

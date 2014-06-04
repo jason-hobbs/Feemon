@@ -1,8 +1,12 @@
 <div class="small-4 columns">
   <p><%= link_to 'Dashboard', dashboards_path %> > <%= @feed.title %></p>
   <% @unread.each do |entry| %>
-    <%= link_to(feed_entry_path(@feed, entry.entry_id)) do %>  
-      <div class="entry-nav"><%= entry.entry_title %></div>
+    <%= link_to(feed_entry_path(@feed, entry.entry_id)) do %> 
+      <% if entry.entry_id.to_i == params[:id].to_i %>
+        <div class="entry-nav active"><%= entry.entry_title %></div>
+      <% else %>
+        <div class="entry-nav"><%= entry.entry_title %></div>
+      <% end %>
     <% end %>    
   <% end %>
   </div>
