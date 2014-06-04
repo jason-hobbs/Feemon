@@ -6,7 +6,10 @@ class EntriesController < ApplicationController
   def show
     @unread = @user.dashboards.where("feed_id = ?", params[:feed_id])
 	  @entry = @feed.entries.find_by(id: params[:id])
-    Dashboard.update(params[:id], :read => "1")
+    #Dashboard.update(:read => "TRUE").where("user_id = ?", @user.id).where("entry_id = ?", @entry.id)
+    #Dashboard.update("read = TRUE", user_id = @user.id, entry_id = @entry.id, :limit => 1)
+    dash = Dashboard.find_by(user_id: @user.id, entry_id: @entry.id )
+    dash.update(read: "TRUE")
   end
 
   def index
@@ -19,7 +22,14 @@ class EntriesController < ApplicationController
 
   private
 
-  
+  def get_counts
+    @counts = Hash.new
+    @ids = Hash.new
+    @user.feeds.each do |feed|
+      @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).size
+      @ids[feed.title] = feed.id
+    end
+  end
 
   def set_feed
     @feed = Feed.find_by!(id: params[:feed_id])

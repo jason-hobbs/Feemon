@@ -34,14 +34,7 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user_admin?
 
-  def get_counts
-    @counts = Hash.new
-    @ids = Hash.new
-    @user.feeds.each do |feed|
-      @counts[feed.title] = @user.dashboards.where("feed_id = ?", feed.id).where("read = ?", "FALSE").size
-      @ids[feed.title] = feed.id
-    end
-  end
+  
 
   
 end
