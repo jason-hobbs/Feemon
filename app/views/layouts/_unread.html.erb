@@ -5,7 +5,11 @@
       <% if entry.entry_id.to_i == params[:id].to_i %>
         <div class="entry-nav active"><%= entry.entry_title %></div>
       <% else %>
-        <div class="entry-nav"><%= entry.entry_title %></div>
+        <% if entry.read %>
+            <div class="entry-nav"><%= entry.entry_title %></div>
+        <% else %>
+          <div class="entry-nav-new"><strong><%= entry.entry_title %></strong></div>
+        <% end %>    
       <% end %>
     <% end %>    
   <% end %>

@@ -95,25 +95,45 @@ table {
 .entry-nav {
     a:link {
       text-decoration: none;
-      
+      color: #000;
     }
-	
+
+    background: image-url('greyball.png');
+    background-repeat: no-repeat;
+    background-position: 2px 9px;
+    background-size: 10px 10px;
 	height: 50px;
-	/*width: 400px;*/
 	padding: 5px;
 	padding-top: 7px;	
+	padding-left: 13px;
 	border-bottom: 1px solid #eee;  
-	
-	
-	
-	.active {
-      background-color: #2299BB;
-      border-radius:5px;
-      color: #fff;
-	}
 }
 
+.entry-nav-new {
+    a:link {
+      text-decoration: none;
+      color: #000;
+    }
+
+    background: image-url('blueball.png');
+    background-repeat: no-repeat;
+    background-position: 2px 9px;
+    background-size: 10px 10px;
+	height: 50px;
+	padding: 5px;
+	padding-top: 7px;	
+	padding-left: 13px;
+	border-bottom: 1px solid #eee;  
+}
+
+
+
 .entry-nav:hover {
+  background-color: #d7d7d7;	 
+  border-radius:5px;
+}
+
+.entry-nav-new:hover {
   background-color: #d7d7d7;	 
   border-radius:5px;
 }
