@@ -4,12 +4,10 @@ class EntriesController < ApplicationController
   before_action :get_counts, only: [:show]
 
   def show
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
 	  @entry = @feed.entries.find_by(id: params[:id])
-    #Dashboard.update(:read => "TRUE").where("user_id = ?", @user.id).where("entry_id = ?", @entry.id)
-    #Dashboard.update("read = TRUE", user_id = @user.id, entry_id = @entry.id, :limit => 1)
     dash = Dashboard.find_by(user_id: @user.id, entry_id: @entry.id )
     dash.update(read: "TRUE")
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
   end
 
   def index
