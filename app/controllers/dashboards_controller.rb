@@ -11,7 +11,7 @@ class DashboardsController < ApplicationController
 
 
   def dashfeed    
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(:entry_published)
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
   end
 
 
