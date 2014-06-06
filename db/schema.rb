@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140605183840) do
+ActiveRecord::Schema.define(version: 20140606032423) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20140605183840) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.datetime "prevupdate", default: '1900-01-01 00:00:00'
   end
 
   add_index "feeds", ["user_id"], name: "index_feeds_on_user_id", using: :btree
