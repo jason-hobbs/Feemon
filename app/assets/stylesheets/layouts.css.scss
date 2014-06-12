@@ -40,7 +40,7 @@ table {
 	border: none;
 	padding: 0px;
 	border-spacing: 0px;
-    
+
     th {
     	background-color: #fff;
     	border-bottom-style: solid;
@@ -58,31 +58,35 @@ table {
 }
 
 .right-collapse {
-  
+
     padding-left: rem-calc(30);
     padding-right: 0;
-  
+
 }
 
 .side-nav {
     a:link {
       text-decoration: none;
-      
+
     }
 	.wrap-nav {
-	  height: 30px;	  
+	  height: 30px;
 	  padding: 5px;
-	  padding-top: 7px;	  
+	  padding-top: 7px;
+    min-width: 155px;
+    max-width: 200px;
 	}
 	.wrap-nav:hover {
-	  background-color: #d7d7d7;	 
+	  background-color: #d7d7d7;
 	  border-radius:5px;
+
 	}
-	.entry {	  
+	.entry {
 	  float: left;
 	}
 	.entry-right {
 	  float: right;
+
 	}
 	.active {
       background-color: #2299BB;
@@ -104,9 +108,9 @@ table {
     background-size: 10px 10px;
 	height: 50px;
 	padding: 5px;
-	padding-top: 7px;	
+	padding-top: 7px;
 	padding-left: 13px;
-	border-bottom: 1px solid #eee;  
+	border-bottom: 1px solid #eee;
 }
 
 .entry-nav-new {
@@ -121,20 +125,20 @@ table {
     background-size: 10px 10px;
 	height: 50px;
 	padding: 5px;
-	padding-top: 7px;	
+	padding-top: 7px;
 	padding-left: 13px;
-	border-bottom: 1px solid #eee;  
+	border-bottom: 1px solid #eee;
 }
 
 
 
 .entry-nav:hover {
-  background-color: #d7d7d7;	 
+  background-color: #d7d7d7;
   border-radius:5px;
 }
 
 .entry-nav-new:hover {
-  background-color: #d7d7d7;	 
+  background-color: #d7d7d7;
   border-radius:5px;
 }
 
