@@ -1,16 +1,16 @@
-<div class="small-3 columns show-for-medium-up right-collapse">
-    <div class="side-nav">      
+<div class="small-3 columns right-collapse">
+    <div class="side-nav">
       <% @counts.each do |name, amount| %>
-        <%= link_to(dashfeed_path(@ids[name])) do %>  
+        <%= link_to(dashfeed_path(@ids[name])) do %>
           <% if current_page?(dashfeed_path(@ids[name])) %>
             <div class="wrap-nav active">
           <% else %>
             <div class="wrap-nav">
-          <% end %>  
+          <% end %>
           <div class="entry"><%= name %></div>
           <div class="entry-right"><%= amount %></div>
-          </div>         
-        <% end %>  
+          </div>
+        <% end %>
       <% end %>
     </div>
   </div>
