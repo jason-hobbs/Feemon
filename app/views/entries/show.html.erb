@@ -9,7 +9,7 @@
  
 
   <div class="small-8 columns">    
-    <h3><%= link_to @entry.title, @entry.link %></h3>
+    <h3><%= link_to @entry.title, @entry.link, :target => '_blank' %></h3>
     <p><%= @entry.published.to_formatted_s(:long_ordinal) %></p>    
     <%= raw @entry.description %>
   </div>
