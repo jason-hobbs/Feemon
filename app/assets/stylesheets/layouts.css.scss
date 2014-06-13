@@ -2,6 +2,7 @@ body {
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 15px;
   /*line-height: 1.428571429;*/
+
 }
 
 .bodywrapper {
@@ -158,13 +159,32 @@ table {
   max-width: 100%;
 }
 
-.scrollable {
-  max-height: 2050px;
-    overflow-y: scroll;
+#middle {
+  /*max-height: 1000px;
+  overflow-y: scroll;*/
+  margin-top: 46px;
+  height: auto;
+  display: block;
+  position: absolute;
+  overflow: auto;
+  bottom:0;
+    top:0;
+    left:0;
+    right:0;
 }
 
-.sticky
-{
-    position: fixed;
-    top: 0px;
+#right {
+  /*max-height: 1000px;
+  overflow-y: scroll;*/
+  margin-top: 46px;
+  margin-left: 33%;
+
+  height: auto;
+  display: block;
+  position: absolute;
+  overflow: auto;
+  bottom:0;
+    top:0;
+    left:0;
+    right:0;
 }
