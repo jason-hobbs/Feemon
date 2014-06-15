@@ -1,2 +1,4 @@
-$('#content').load(<%= j render(@entry) %>);
 
+$("#right").empty();
+$("<%= escape_javascript(render @entry) %>").appendTo("#right");
+//location.reload();
