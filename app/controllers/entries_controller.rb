@@ -10,6 +10,10 @@ class EntriesController < ApplicationController
     #dash.read = "TRUE"
     #dash.save
     @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
+    respond_to do |format|
+      format.js
+      format.html
+    end
   end
 
   def index
