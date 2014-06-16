@@ -23,5 +23,6 @@ window.onload = function() {
 $('.entry-nav').click(function()
 {
   $('.entry-nav').removeClass('active');
+  $(this).removeClass('new');
   $(this).addClass('active');
 });
