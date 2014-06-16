@@ -79,7 +79,7 @@ table {
 	}
 	.wrap-nav:hover {
 	  background-color: #d7d7d7;
-	  border-radius:5px;
+	  /*border-radius:5px;*/
 
 	}
 	.entry {
@@ -93,6 +93,7 @@ table {
       background-color: #2299BB;
       border-radius:5px;
       color: #fff;
+
 	}
 }
 
@@ -122,6 +123,7 @@ table {
   background-repeat: no-repeat;
   background-position: 2px 9px;
   background-size: 10px 10px;
+
 }
 
 .entry-nav-new {
@@ -157,6 +159,10 @@ table {
   background-color: #2299BB;
   border-radius:5px;
   color: #fff;
+}
+
+a:active,a:focus {
+outline: none;
 }
 
 .active:hover {
