@@ -20,3 +20,8 @@
 window.onload = function() {
         $(document).foundation();
 };
+$('.entry-nav').click(function()
+{
+  $('.entry-nav').removeClass('active');
+  $(this).addClass('active');
+});
