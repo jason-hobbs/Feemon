@@ -79,7 +79,7 @@ table {
 	}
 	.wrap-nav:hover {
 	  background-color: #d7d7d7;
-	  /*border-radius:5px;*/
+	  border-radius:5px;
 
 	}
 	.entry {
@@ -178,7 +178,8 @@ outline: none;
 #middle {
   /*max-height: 1000px;
   overflow-y: scroll;*/
-  margin-top: 46px;
+  /*margin-top: 46px;*/
+  margin-top: 71px;
   height: auto;
   display: block;
   position: absolute;
@@ -190,9 +191,8 @@ outline: none;
 }
 
 #right {
-  /*max-height: 1000px;
-  overflow-y: scroll;*/
-  margin-top: 46px;
+  /*margin-top: 46px;*/
+  margin-top: 71px;
   margin-left: 33%;
 
   height: auto;
@@ -203,4 +203,15 @@ outline: none;
     top:0;
     left:0;
     right:0;
+}
+
+.subnav {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 25px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #a0a0a0;
 }

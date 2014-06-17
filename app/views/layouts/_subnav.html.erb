@@ -1,0 +1,12 @@
+<div class="row left">
+  <div class="small-12 columns show-for-medium-up">
+
+<div class="subnav">
+
+<% if controller.controller_name == 'dashboards' && controller.action_name == 'dashfeed' %>
+  <%= link_to 'Dashboard', dashboards_path %> > <%= @feed.title %>
+<% end %>
+
+</div>
+</div>
+</div>
