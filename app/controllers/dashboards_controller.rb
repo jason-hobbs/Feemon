@@ -2,7 +2,7 @@ class DashboardsController < ApplicationController
   before_action :require_signin
   before_action :get_user
   before_action :get_counts
-  before_action :get_feed, only: [:dashfeed]
+  before_action :get_feed, only: [:dashfeed, :markall]
 
 
   def index
@@ -14,7 +14,9 @@ class DashboardsController < ApplicationController
     @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
   end
 
+  def markall
 
+  end
 
   private
 

@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  
 
-  
-  
+
+
+
   match '/dashfeed/:feed_id', :action => 'dashfeed', :via => [:get], :controller => 'dashboards', as: :dashfeed
+  match '/markall/:feed_id', :action => 'markall', :via => [:get], :controller => 'dashboards', as: :markall
 
 
 
@@ -11,7 +12,7 @@ Rails.application.routes.draw do
 
   resources :users
 
-  
+
 
   resources :feeds do
     resources :entries
@@ -27,7 +28,7 @@ Rails.application.routes.draw do
     delete 'logout' => :destroy
   end
 
-  get 'signup' => 'users#new'  
+  get 'signup' => 'users#new'
 
   root "static#index"
 
