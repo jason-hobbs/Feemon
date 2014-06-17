@@ -1,4 +1,5 @@
 <div class="small-12 medium-4 columns" id="middle">
+  <br>
   <% @unread.each do |entry| %>
     <%= link_to(feed_entry_path(@feed, entry.entry_id), remote: true) do %>
       <% if entry.entry_id.to_i == params[:id].to_i %>

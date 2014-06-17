@@ -206,6 +206,22 @@ outline: none;
 }
 
 .subnav {
+  a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:active {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
   margin-left: 40px;
   margin-right: 40px;
   padding-left: 10px;
@@ -213,5 +229,6 @@ outline: none;
   height: 25px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  background-color: #a0a0a0;
+  background-color: #3682AB;
+  color: #fff;
 }
