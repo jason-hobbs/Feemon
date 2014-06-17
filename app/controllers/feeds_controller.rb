@@ -7,7 +7,7 @@ class FeedsController < ApplicationController
   # GET /feeds
   # GET /feeds.json
   def index
-    if session[:user_id]    
+    if session[:user_id]
       @user = current_user
     end
     @feeds = Feed.order(:title)
@@ -78,9 +78,4 @@ class FeedsController < ApplicationController
       params.require(:feed).permit(:title, :site, :url)
     end
 
-    def get_user
-    if session[:user_id]    
-      @user = current_user
-    end
-  end
 end

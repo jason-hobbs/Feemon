@@ -1,9 +1,7 @@
 class StaticController < ApplicationController
+  before_action :get_user
 
-def index
-  if session[:user_id]    
-    @user = current_user
+  def index
   end
-end
 
 end

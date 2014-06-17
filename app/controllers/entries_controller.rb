@@ -5,7 +5,7 @@ class EntriesController < ApplicationController
 
   def show
 	  @entry = @feed.entries.find_by(id: params[:id])
-    @dash = Dashboard.find_by(user_id: @user.id, entry_id: @entry.id )    
+    @dash = Dashboard.find_by(user_id: @user.id, entry_id: @entry.id )
     @dash.update(read: "TRUE")
     #dash.read = "TRUE"
     #dash.save
@@ -21,7 +21,7 @@ class EntriesController < ApplicationController
   end
 
   def edit
-    
+
   end
 
   private
@@ -39,9 +39,4 @@ class EntriesController < ApplicationController
     @feed = Feed.find_by!(id: params[:feed_id])
   end
 
-  def get_user
-    if session[:user_id]    
-      @user = current_user
-    end
-  end
 end
