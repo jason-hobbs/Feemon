@@ -4,7 +4,8 @@
 <div class="subnav">
 
 <% if controller.controller_name == 'dashboards' && controller.action_name == 'dashfeed' %>
-  <%= link_to 'Dashboard', dashboards_path %> > <%= @feed.title %>
+  <%= link_to 'Dashboard', dashboards_path %> > <%= @feed.title %> | <%= link_to 'Mark all read',
+  markall_path %>
 <% end %>
 
 </div>

@@ -15,7 +15,8 @@ class DashboardsController < ApplicationController
   end
 
   def markall
-
+    @user.dashboards.where('feed_id = ?', @feed.id).update_all(:read => true)
+    redirect_to dashboards_path
   end
 
   private
