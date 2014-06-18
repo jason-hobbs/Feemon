@@ -1,6 +1,6 @@
 <div class="small-3 columns right-collapse">
     <div class="side-nav">
-      <% @counts.each do |name, amount| %>
+      <% @counts.sort.each do |name, amount| %>
         <%= link_to(dashfeed_path(@ids[name])) do %>
           <% if current_page?(dashfeed_path(@ids[name])) %>
             <div class="wrap-nav active">
