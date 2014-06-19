@@ -26,3 +26,10 @@ $('.entry-nav').click(function()
   $(this).removeClass('new');
   $(this).addClass('active');
 });
+
+$(document).ready(
+    function() {
+      $("#middle").niceScroll({cursorcolor:"#505050"});
+      $("#right").niceScroll({cursorcolor:"#505050"});
+    }
+  );
