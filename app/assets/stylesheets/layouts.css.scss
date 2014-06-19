@@ -226,6 +226,7 @@ outline: none;
   margin-right: 40px;
   padding-left: 10px;
   padding-top: 5px;
+  position: relative;
   height: 25px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -236,4 +237,17 @@ outline: none;
 .gravatar {
   border-radius: 3px;
   padding-bottom: 2px;
+}
+
+.check {
+
+  background: url('check3.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+}
+.check:hover {
+   background: url('check4.png');
 }
