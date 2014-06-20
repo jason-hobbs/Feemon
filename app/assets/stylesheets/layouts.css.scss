@@ -226,6 +226,7 @@ outline: none;
   margin-right: 40px;
   padding-left: 10px;
   padding-top: 5px;
+  z-index: 100;
   position: relative;
   height: 25px;
   border-bottom-right-radius: 3px;
@@ -252,4 +253,8 @@ outline: none;
 }
 .check:hover {
    background: url('check5b.png');
+}
+
+.top-bar-section {
+  z-index: 100;
 }
