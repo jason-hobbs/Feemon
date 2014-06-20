@@ -18,6 +18,9 @@
       <% if controller.controller_name == 'dashboards' && controller.action_name == 'dashfeed' %>
         <%= render 'layouts/subnav' %>
       <% end %>
+      <% if controller.controller_name == 'entries' && controller.action_name == 'show' %>
+        <%= render 'layouts/subnav' %>
+      <% end %>
     </header>
     <main role="main">
        <%= render 'layouts/messages' %>
