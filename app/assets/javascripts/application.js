@@ -29,7 +29,7 @@ $('.entry-nav').click(function()
 
 $(document).ready(
     function() {
-      $("#middle").niceScroll({cursorcolor:"#505050", cursorwidth:"8"});
-      $("#right").niceScroll({cursorcolor:"#505050", cursorwidth:"8"});
+      $("#middle").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
+      $("#right").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
     }
   );
