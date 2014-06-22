@@ -82,17 +82,12 @@ table {
 	  border-radius:5px;
 
 	}
-  .wrap-nav-mobile {
-    height: 30px;
-    padding: 5px;
-    padding-top: 7px;
-    min-width: 155px;
-    width: 200px;
-  }
-  .wrap-nav-mobile:active {
+  .mobile:active {
     background-color: #d7d7d7;
     border-radius:5px;
-
+  }
+  .mobile:hover {
+    background-color: #fff;
   }
 
 	.entry {
