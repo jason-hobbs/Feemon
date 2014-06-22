@@ -121,13 +121,7 @@ table {
 	padding-top: 7px;
 	padding-left: 13px;
 	border-bottom: 1px solid #eee;
-.mobile:active {
-  background-color: #d7d7d7;
-  border-radius:5px;
-}
-.mobile:hover {
-  background-color: #fff;
-}
+
 
 }
 
@@ -276,4 +270,15 @@ outline: none;
 
 .top-bar-section {
   z-index: 100;
+}
+
+.mobile {
+  background-color: #fff;
+}
+.mobile:active {
+  background-color: #d7d7d7;
+  border-radius:5px;
+}
+.mobile:hover {
+  background-color: #fff;
 }
