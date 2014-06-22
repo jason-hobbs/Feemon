@@ -87,7 +87,12 @@ table {
     padding: 5px;
     padding-top: 7px;
     min-width: 155px;
-    max-width: 200px;
+    width: 200px;
+  }
+  .wrap-nav-mobile:active {
+    background-color: #d7d7d7;
+    border-radius:5px;
+
   }
 
 	.entry {
@@ -125,6 +130,25 @@ table {
 
 }
 
+.entry-nav-mobile {
+    a:link {
+      text-decoration: none;
+      color: #000;
+    }
+
+    background: image-url('greyball.png');
+    background-repeat: no-repeat;
+    background-position: 2px 9px;
+    background-size: 10px 10px;
+  height: 50px;
+  padding: 5px;
+  padding-top: 7px;
+  padding-left: 13px;
+  border-bottom: 1px solid #eee;
+
+
+}
+
 .new {
   font-weight: bold;
   background: image-url('blueball.png');
@@ -154,6 +178,11 @@ table {
 
 
 .entry-nav:hover {
+  background-color: #d7d7d7;
+  border-radius:5px;
+}
+
+.entry-nav:active {
   background-color: #d7d7d7;
   border-radius:5px;
 }
