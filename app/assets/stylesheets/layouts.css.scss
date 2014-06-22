@@ -82,13 +82,7 @@ table {
 	  border-radius:5px;
 
 	}
-  .mobile:active {
-    background-color: #d7d7d7;
-    border-radius:5px;
-  }
-  .mobile:hover {
-    background-color: #fff;
-  }
+
 
 	.entry {
 	  float: left;
@@ -105,6 +99,13 @@ table {
 	}
 }
 
+.mobile:active {
+  background-color: #d7d7d7;
+  border-radius:5px;
+}
+.mobile:hover {
+  background-color: #fff;
+}
 
 .entry-nav {
     a:link {

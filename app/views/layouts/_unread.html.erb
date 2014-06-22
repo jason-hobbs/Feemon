@@ -17,15 +17,11 @@
   <% else %>
     <% @unread.each do |entry| %>
       <%= link_to(feed_entry_path(@feed, entry.entry_id)) do %>
-        <% if entry.entry_id.to_i == params[:id].to_i %>
-          <div class="entry-nav mobile active"><%= entry.entry_title %></div>
-        <% else %>
           <% if entry.read %>
               <div class="entry-nav mobile"><%= entry.entry_title %></div>
           <% else %>
             <div class="entry-nav mobile new"><%= entry.entry_title %></div>
           <% end %>
-        <% end %>
       <% end %>
     <% end %>
   <% end %>
