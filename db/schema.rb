@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140606183342) do
+ActiveRecord::Schema.define(version: 20140624190002) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20140606183342) do
     t.boolean  "read",            default: false
     t.text     "entry_title"
     t.datetime "entry_published"
+    t.text     "entry_link"
   end
 
   add_index "dashboards", ["entry_id"], name: "index_dashboards_on_entry_id", using: :btree
