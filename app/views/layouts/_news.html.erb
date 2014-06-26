@@ -1,5 +1,10 @@
 <% @topstories.each do |story| %>
   <div class='news-story'>
-    <%= raw(story.entry.description) %>
+    <p><%= link_to story.entry.title, story.entry.link, :target => '_blank' %></p>
+    <p><%= story.entry.published.to_time.strftime("%B #{story.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") %></p>
+    <% desc = sanitize story.entry.description, tags: %w(img) %>
+    <% desc2 = truncate(desc, :length => 1000, :separator => ' ') %>
+    <p><%= desc2 %></p>
+
   </div>
 <% end %>
