@@ -6,7 +6,7 @@ class DashboardsController < ApplicationController
 
 
   def index
-
+    @topstories = Topstories.all
   end
 
 

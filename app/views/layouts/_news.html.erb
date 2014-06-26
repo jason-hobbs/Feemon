@@ -1,18 +1,5 @@
-<div class='news-story'>
-
-</div>
-<div class='news-story'>
-
-</div>
-<div class='news-story'>
-
-</div>
-<div class='news-story'>
-
-</div>
-<div class='news-story'>
-
-</div>
-<div class='news-story'>
-
-</div>
+<% @topstories.each do |story| %>
+  <div class='news-story'>
+    <%= raw(story.entry.description) %>
+  </div>
+<% end %>

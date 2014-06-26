@@ -284,12 +284,15 @@ outline: none;
 }
 
 .news-story {
-  background-color: #d7d7d7;
+  border-style: solid;
+  border-color: #23556F;
+  border-width: 1px;
   border-radius:5px;
+  overflow: hidden;
   margin-top: 10px;
   margin-right: 5px;
   float: left;
-  padding: 5px;
+  padding: 10px;
   width: 250px;
   height: 400px;
 }
