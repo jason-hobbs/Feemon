@@ -31,5 +31,12 @@ $(document).ready(
     function() {
       $("#middle").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
       $("#right").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
-    }
-  );
+});
+
+var container = document.querySelector('.news-container');
+var msnry = new Masonry( container, {
+  // options
+  columnWidth: 300,
+  itemSelector: '.news-story',
+  gutter: 5
+});

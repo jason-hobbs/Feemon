@@ -1,3 +1,5 @@
+<h3>Current News Stories</h3>
+<div class='news-container'>
 <% @topstories.each do |story| %>
   <div class='news-story'>
     <p><%= link_to story.entry.title, story.entry.link, :target => '_blank' %></p>
@@ -8,3 +10,4 @@
 
   </div>
 <% end %>
+</div>
