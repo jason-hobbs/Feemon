@@ -1,6 +1,6 @@
 <div class="bodywrapper">
 <header id="content-header">
-  <h1>Sign In</h1>
+  <h3 id='storyheader'>Sign In</h3>
 </header>
 
 <%= form_tag(session_path) do %>
@@ -21,12 +21,12 @@
     <%= label_tag :password %>
     <%= password_field_tag :password, nil, required: true, class: "radius entry" %>
   </div>
-</div> 
+</div>
 
 <div class="row left">
-  <div class="small-12 columns"> 
+  <div class="small-12 columns">
     <%= submit_tag "Sign In", class: 'button tiny radius' %>
   </div>
 </div>
-<% end %>    
+<% end %>
 </div>
