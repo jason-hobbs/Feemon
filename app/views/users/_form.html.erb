@@ -33,7 +33,7 @@
     <%= f.password_field :password, class: "radius entry" %>
   </div>
 </div>
- 
+
 <div class="row left">
   <div class="small-12 columns">
     <%= f.label "Password Confirmation", class: "bold" %><br>
@@ -44,19 +44,26 @@
 <% if session[:user_id] %>
 <div class="row left">
   <div class="small-12 columns">
-    <%= f.collection_check_boxes(:feed_ids, @feeds, :id, :title) %>
+
+
+    <%= f.collection_check_boxes(:feed_ids, @feeds, :id, :title) do |b| %>
+    <%= b.label { b.check_box + ' ' + b.text } %>
+    <% end %>
+
+
+
+
   </div>
 </div>
 <%end%>
 <div class="row left">
-  <div class="small-12 columns"> 
+  <div class="small-12 columns">
   <% if @user.new_record? %>
     <%= f.submit "Create User", class: 'button tiny radius' %>
   <% else %>
     <%= f.submit "Update Account",  class: 'button tiny radius' %>
   <% end %>
-  
+
 
 
 <% end %>
-
