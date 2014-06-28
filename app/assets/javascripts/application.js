@@ -34,9 +34,15 @@ $(document).ready(
 });
 
 var container = document.querySelector('.news-container');
-var msnry = new Masonry( container, {
-  // options
-  columnWidth: 300,
-  itemSelector: '.news-story',
-  gutter: 5
+var msnry;
+
+imagesLoaded( container, function() {
+  msnry = new Masonry( container, {
+   // options
+   columnWidth: 300,
+   itemSelector: '.news-story',
+   gutter: 5
+ } );
 });
+
+ 
