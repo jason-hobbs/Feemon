@@ -33,7 +33,9 @@ gem 'newrelic_rpm'
 gem 'bcrypt', '~> 3.1.7'
 gem 'feedjira'
 gem 'mobvious'
-
+gem 'nokogiri'
+gem 'htmlentities'
+gem 'truncate_html'
 
 
 # Use unicorn as the app server
