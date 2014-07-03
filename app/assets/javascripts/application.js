@@ -27,6 +27,8 @@ $('.entry-nav').click(function()
   $(this).addClass('active');
 });
 
+
+
 $(document).ready(
     function() {
       $("#middle").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
@@ -44,5 +46,3 @@ imagesLoaded( container, function() {
    gutter: 5
  } );
 });
-
- 

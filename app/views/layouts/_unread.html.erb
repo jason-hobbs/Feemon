@@ -4,13 +4,13 @@
   <% onetime = 0 %>
   <% twotime = 0 %>
   <% @unread.each do |entry| %>
-    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < 2.days.ago and twotime == 0 %>
+    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < 2.days.ago.midnight and twotime == 0 %>
       <% twotime = 1 %>
-      earlier
+      <div class='day'>Earlier</div>
     <% end %>
     <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < Date.today.midnight and entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") > 2.days.ago and onetime == 0 %>
       <% onetime = 1 %>
-      yesterday
+      <div class='day'>Yesterday</div>
     <% end %>
 
     <%= link_to(feed_entry_path(@feed, entry.entry_id), remote: true) do %>
