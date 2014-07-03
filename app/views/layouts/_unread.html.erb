@@ -1,7 +1,18 @@
 <div class="small-12 medium-4 columns" id="middle">
   <br>
   <% if request.env['mobvious.device_type'].to_s == 'desktop' %>
+  <% onetime = 0 %>
+  <% twotime = 0 %>
   <% @unread.each do |entry| %>
+    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < 2.days.ago and twotime == 0 %>
+      <% twotime = 1 %>
+      earlier
+    <% end %>
+    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < Date.today.midnight and entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") > 2.days.ago and onetime == 0 %>
+      <% onetime = 1 %>
+      yesterday
+    <% end %>
+
     <%= link_to(feed_entry_path(@feed, entry.entry_id), remote: true) do %>
       <% if entry.entry_id.to_i == params[:id].to_i %>
         <div class="entry-nav active"><%= entry.entry_title %></div>
