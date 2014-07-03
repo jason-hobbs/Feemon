@@ -11,7 +11,7 @@ class DashboardsController < ApplicationController
 
 
   def dashfeed
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(75)
   end
 
   def markall
