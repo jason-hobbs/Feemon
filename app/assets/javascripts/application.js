@@ -35,14 +35,14 @@ $(document).ready(
       $("#right").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
 });
 
-var container = document.querySelector('.news-container');
-var msnry;
 
+var container = document.querySelector('.news-container');
+var pckry;
 imagesLoaded( container, function() {
-  msnry = new Masonry( container, {
-   // options
-   columnWidth: 300,
-   itemSelector: '.news-story',
-   gutter: 5
- } );
+  pckry = new Packery( container, {
+    // options
+    columnWidth: 300,
+    itemSelector: '.news-story',
+    gutter: 5
+  } );
 });
