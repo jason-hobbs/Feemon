@@ -47,6 +47,7 @@ GEM
     foundation-rails (5.3.0.1)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
+    gritter (1.1.0)
     hike (1.2.3)
     htmlentities (4.3.2)
     i18n (0.6.9)
@@ -70,7 +71,6 @@ GEM
       mobileesp_converted (~> 0.2.0)
       rack (>= 1.1.0)
     multi_json (1.10.1)
-    newrelic_rpm (3.9.0.229)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
     pg (0.17.1)
@@ -140,11 +140,11 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   feedjira
   foundation-rails
+  gritter
   htmlentities
   jbuilder (~> 2.0)
   jquery-rails
   mobvious
-  newrelic_rpm
   nokogiri
   pg
   rails

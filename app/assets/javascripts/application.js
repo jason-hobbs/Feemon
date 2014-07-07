@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require gritter
 //= require foundation
 //= require turbolinks
 //= require_tree .
@@ -33,6 +34,12 @@ $(document).ready(
     function() {
       $("#middle").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
       $("#right").niceScroll({cursorcolor:"#505050", cursorwidth:"8", mousescrollstep:"20"});
+      $.extend($.gritter.options, {
+            fade_in_speed: 100, // how fast notifications fade in (string or int)
+            fade_out_speed: 100, // how fast the notices fade out
+            time: 1500 // hang on the screen for...
+          });
+
 });
 
 
