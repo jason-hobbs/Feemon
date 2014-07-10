@@ -2,7 +2,7 @@ class DashboardsController < ApplicationController
   before_action :require_signin
   before_action :get_user
   before_action :get_counts
-  before_action :get_feed, only: [:dashfeed, :markall]
+  before_action :get_feed, only: [:dashfeed, :markall, :grid]
 
 
   def index
@@ -17,6 +17,10 @@ class DashboardsController < ApplicationController
   def markall
     @user.dashboards.where('feed_id = ?', @feed.id).update_all(:read => true)
     redirect_to dashboards_path
+  end
+
+  def grid
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).where("read = ?", false).order(entry_published: :desc).limit(75)
   end
 
   private

@@ -1,7 +1,7 @@
 <div class="bodywrapper">
-
+<br><br>
 <div class='news-container'>
-<% @topstories.each do |story| %>
+<% @unread.each do |story| %>
   <div class='news-story'>
     <p><%= link_to story.entry.title, story.entry.link, :target => '_blank' %></p>
     <p><%= story.entry.published.to_time.strftime("%B #{story.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") %></p>
@@ -11,5 +11,4 @@
   </div>
 <% end %>
 </div>
-
 </div>
