@@ -20,7 +20,7 @@ class DashboardsController < ApplicationController
   end
 
   def grid
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).where("read = ?", false).order(entry_published: :desc).limit(75)
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(25)
   end
 
   private
