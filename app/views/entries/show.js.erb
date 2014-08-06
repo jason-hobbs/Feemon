@@ -1,4 +1,7 @@
 
-$("#right").empty();
+$("#right").empty().delay(300)
 $("<%= escape_javascript(render @entry) %>").appendTo("#right");
+
+//$("#right").load("<%= escape_javascript(render @entry) %>");
+//$("#right").replaceWith("<%= escape_javascript(render @entry) %>");
 //location.reload();
