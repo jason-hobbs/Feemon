@@ -13,8 +13,8 @@
       <div class='day'>Yesterday</div>
     <% end %>
 
-    <%= link_to(feed_entry_path(@feed, entry.entry_id), remote: true) do %>
-      <% if entry.entry_id.to_i == params[:id].to_i %>
+    <%= link_to(feed_entry_path(@feed, entry.entry_id), 'data-no-turbolink' => true, remote: true) do %>
+          <% if entry.entry_id.to_i == params[:id].to_i %>
         <div class="entry-nav active"><%= entry.entry_title %></div>
       <% else %>
         <% if entry.read %>

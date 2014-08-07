@@ -14,7 +14,13 @@
   </head>
 
 
-  <body>
+  <% if controller.controller_name == 'entries' && controller.action_name == 'show' %>
+    <body data-no-turbolink="true">
+  <% else %>
+    <body>
+  <% end %>
+
+
     <header>
       <%= render 'layouts/navigation' %>
       <% if controller.controller_name == 'dashboards' && controller.action_name == 'dashfeed' || controller.controller_name == 'dashboards' && controller.action_name == 'grid'%>

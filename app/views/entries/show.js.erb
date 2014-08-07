@@ -1,7 +1,3 @@
-
-$("#right").empty().delay(500)
+$("#right").empty()
+//alert("<%= controller.action_name %>");
 $("<%= escape_javascript(render @entry) %>").appendTo("#right");
-
-//$("#right").load("<%= escape_javascript(render @entry) %>");
-//$("#right").replaceWith("<%= escape_javascript(render @entry) %>");
-//location.reload();
