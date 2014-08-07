@@ -19,7 +19,8 @@ $(document).ready(
 
 });
 
-
+$(document).ready(
+    function() {
 var container = document.querySelector('.news-container');
 var pckry;
 imagesLoaded( container, function() {
@@ -29,4 +30,5 @@ imagesLoaded( container, function() {
     itemSelector: '.news-story',
     gutter: 5
   } );
+});
 });
