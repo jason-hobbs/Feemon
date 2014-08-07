@@ -4,7 +4,7 @@
 <div class="subnav">
 
 <% if controller.controller_name == 'dashboards' && controller.action_name == 'dashfeed' %>
-  <%= link_to 'Dash', dashboards_path, 'data-no-turbolink' => true %> > <%= @feed.title %> <%= link_to image_tag("check5.png", {:size=>"15", onmouseover: "this.src='#{asset_path('check5b.png')}'", onmouseout: "this.src='#{asset_path('check5.png')}'", :alt=>"Mark all read", :title=>"Mark all read"}) , markall_path%> <%= link_to 'Grid', grid_path, 'data-no-turbolink' => true %>
+  <%= link_to 'Dash', dashboards_path, 'data-no-turbolink' => true %> > <%= @feed.title %> <%= link_to image_tag("check5.png", {:size=>"15", onmouseover: "this.src='#{asset_path('check5b.png')}'", onmouseout: "this.src='#{asset_path('check5.png')}'", :alt=>"Mark all read", :title=>"Mark all read"}) , markall_path%> <%= link_to 'Grid', grid_path %>
 <% else %>
   <%= link_to 'Dash', dashboards_path, 'data-no-turbolink' => true %> > <%= link_to @feed.title, dashfeed_path(@feed.id) %> <%= link_to image_tag("check5.png", {:size=>"15", onmouseover: "this.src='#{asset_path('check5b.png')}'", onmouseout: "this.src='#{asset_path('check5.png')}'", :alt=>"Mark all read", :title=>"Mark all read"}) , markall_path%>
 

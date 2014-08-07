@@ -35,6 +35,7 @@ gem 'mobvious'
 gem 'nokogiri'
 gem 'htmlentities'
 gem 'truncate_html'
+gem 'jquery-turbolinks'
 
 
 # Use unicorn as the app server
