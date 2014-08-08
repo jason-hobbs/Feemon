@@ -36,7 +36,9 @@ gem 'nokogiri'
 gem 'htmlentities'
 gem 'truncate_html'
 gem 'jquery-turbolinks'
-
+gem 'sitemap_generator'
+gem 'fog'
+gem 'carrierwave'
 
 # Use unicorn as the app server
 # gem 'unicorn'
