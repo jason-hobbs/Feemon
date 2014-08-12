@@ -6,12 +6,12 @@ class DashboardsController < ApplicationController
 
 
   def index
-    @topstories = Topstories.all
+    @topstories = Topstories.all.includes(:entry)
   end
 
 
   def dashfeed
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(75)
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(75).includes(:entry)
   end
 
   def markall
@@ -20,7 +20,7 @@ class DashboardsController < ApplicationController
   end
 
   def grid
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(25)
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(25).includes(:entry)
   end
 
   private

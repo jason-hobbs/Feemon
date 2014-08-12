@@ -5,7 +5,7 @@ class StaticController < ApplicationController
     if @user
       redirect_to dashboards_path
     else
-      @topstories = Topstories.all
+      @topstories = Topstories.all.includes(:entry)
     end
   end
 
