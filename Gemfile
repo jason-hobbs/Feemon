@@ -28,7 +28,8 @@ gem 'spring',        group: :development
 gem 'foundation-rails'
 gem 'gritter'
 gem 'bullet', group: :development
-
+gem 'rails-perftest'
+gem 'ruby-prof'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'feedjira'
