@@ -4,7 +4,7 @@ require "pg"
 require "active_support/all"
 
 conn = PG.connect(
-        :dbname => 'feemon_development',
+        :dbname => 'feemon',
         :user => 'root',
         :password => 'naginata')
 
