@@ -2,6 +2,7 @@ require "feedjira"
 require "date"
 require "pg"
 require "active_support/all"
+require 'action_view'
 
 conn = PG.connect(
         :dbname => 'feemon',
@@ -29,6 +30,11 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           desc=entry.content
         else
           desc=entry.summary
+        end
+        if feedtitle == 'CNN'
+          if desc
+            desc = ActionView::Base.full_sanitizer.sanitize(desc)
+          end
         end
         if feedtitle == 'Joystiq' || feedtitle == 'Engadget'
           if desc
