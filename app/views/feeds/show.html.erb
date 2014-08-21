@@ -1,0 +1,21 @@
+<div class="bodywrapper">
+<br>
+<p>
+  <strong>Title:</strong>
+  <%= @feed.title %>
+</p>
+
+<p>
+  <strong>Site:</strong>
+  <%= @feed.site %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @feed.url %>
+</p>
+
+<%= link_to 'Edit', edit_feed_path(@feed), class: "button tiny radius" %>
+<%= link_to 'Entries', feed_entries_path(@feed), class: "button tiny radius" %>
+<%= link_to 'Back', feeds_path, class: "button tiny radius" %>
+</div>

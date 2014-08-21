@@ -1,0 +1,15 @@
+<div class="bodywrapper">
+<br><br>
+<h3 id="storyheader">latest entries for <%= @feed.title %></h3>
+<div class='news-container'>
+<% @unread.each do |story| %>
+  <div class='news-story'>
+    <p><%= link_to story.entry.title, story.entry.link, :target => '_blank' %></p>
+    <p><%= story.entry.published.to_time.strftime("%B #{story.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") %></p>
+    <% desc = sanitize story.entry.description, tags: %w(img a) %>
+    <% desc2 = truncate_html desc, :length => 500 %>
+    <p><%= desc2 %></p>
+  </div>
+<% end %>
+</div>
+</div>

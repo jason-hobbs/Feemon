@@ -1,0 +1,44 @@
+<div class="small-12 medium-4 columns" id="middle">
+  <br>
+  <% if request.env['mobvious.device_type'].to_s == 'desktop' %>
+  <% onetime = 0 %>
+  <% twotime = 0 %>
+  <% @unread.each do |entry| %>
+    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < 1.day.ago.midnight and twotime == 0 %>
+      <% twotime = 1 %>
+      <div class='day'>Earlier</div>
+    <% end %>
+    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < Date.today.midnight and entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") > 1.day.ago.midnight and onetime == 0 %>
+      <% onetime = 1 %>
+      <div class='day'>Yesterday</div>
+    <% end %>
+
+    <%= link_to(feed_entry_path(@feed, entry.entry_id), 'data-no-turbolink' => true, remote: true) do %>
+          <% if entry.entry_id.to_i == params[:id].to_i %>
+        <div class="entry-nav active"><%= entry.entry_title %></div>
+      <% else %>
+        <% if entry.read %>
+            <div class="entry-nav"><%= entry.entry_title %></div>
+        <% else %>
+          <div class="entry-nav new"><%= entry.entry_title %></div>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+  <% else %>
+    <% @unread.each do |entry| %>
+      <%= link_to(feed_entry_path(@feed, entry.entry_id)) do %>
+          <% if entry.read %>
+              <div class="entry-nav mobile"><%= entry.entry_title %></div>
+          <% else %>
+            <div class="entry-nav mobile new"><%= entry.entry_title %></div>
+          <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+
+
+
+
+
+  </div>

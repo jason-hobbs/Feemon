@@ -1,0 +1,16 @@
+<div class="small-12 medium-2 columns">
+    <div class="side-nav">
+      <% @counts.sort.each do |name, amount| %>
+        <%= link_to(dashfeed_path(@ids[name])) do %>
+          <% if request.env['mobvious.device_type'].to_s == 'desktop' %>
+            <div class="wrap-nav">
+          <% else %>
+            <div class="wrap-nav mobile">
+          <% end %>
+          <div class="entry"><%= name %></div>
+          <div class="entry-right"><%= amount %></div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
