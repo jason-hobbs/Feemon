@@ -11,7 +11,7 @@ conn = PG.connect(
 
 conn.prepare("insert_entry", "insert into entries (title, description, link, feed_id, published, created_at, updated_at) values ($1, $2, $3, $4, $5, $6, $7)")
 conn.prepare("update_feed_time", "update feeds set updated_at = $1, prevupdate = $2 where id = $3")
-
+conn.prepare("get_entry_title", "select count(*) from entries where feed_id = $1 and title = $2")
 conn.prepare("insert", "insert into entries (title, description, link, feed_id, published, created_at, updated_at) select $1, $2, $3, $4, $5, $6, $7 from entries where not exists (select 1 from entries where link = $3) limit 1")
 
 conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
@@ -73,14 +73,21 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           else
             pub = entry.published
           end
-          #conn.exec_prepared("insert_entry", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
           if entry.title
             entry.title.gsub!("&#63;", "?")
           end
           if desc
             desc.gsub!("&#63;", "?")
           end
-          conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
+          if feedtitle == 'recode'
+            testtitle = conn.exec_prepared("get_entry_title", [feedid.to_i, entry.title])
+            #puts testtitle.getvalue(0,0)
+            if testtitle.getvalue(0,0).to_i < 1
+              conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
+            end
+          else
+            conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
+          end
         end
       end
       conn.exec_prepared("update_feed_time", [time, lastupdated, feedid.to_i])
