@@ -1,10 +1,16 @@
-require File.expand_path('../../config/boot',        __FILE__)
-require File.expand_path('../../config/environment', __FILE__)
 require 'clockwork'
+module Clockwork
+  handler do |job|
+    puts "Running #{job}"
+  end
 
-include Clockwork
+  # handler receives the time when job is prepared to run in the 2nd argument
+  # handler do |job, time|
+  #   puts "Running #{job}, at #{time}"
+  # end
 
-every(10.minutes, 'Queueing interval job') { Delayed::Job.enqueue 'feeds_heroku.rb' }
-every(10.minutes, 'Queueing interval job') { Delayed::Job.enqueue 'feeds_user_heroku.rb' }
-every(1.hour, 'Queueing interval job') { Delayed::Job.enqueue 'topstories_heroku.rb' }
-every(1.day, 'Queueing interval job') { Delayed::Job.enqueue 'clean_heroku.rb' }
+  every(10.minutes, 'feeds.rb')
+  every(10.minutes, 'feeds_user.rb')
+  every(1.hour, 'topstories.rb')
+  every(1.day, 'clean.rb')
+end
