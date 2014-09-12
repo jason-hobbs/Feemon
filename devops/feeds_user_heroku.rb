@@ -2,9 +2,10 @@ require "pg"
 require "active_support/all"
 
 conn = PG.connect(
-        :dbname => 'feemon',
-        :user => 'root',
-        :password => 'naginata')
+        :host => 'ec2-54-204-40-96.compute-1.amazonaws.com',
+        :dbname => 'd8mb17g883jqhh',
+        :user => 'zwqaqdrugekjys',
+        :password => 'AKhWFcOHMwL3C14gXO-xG-Ld0l')
 
 conn.prepare("get_user_feeds", "select feed_id from userfeeds where user_id = $1")
 conn.prepare("get_user_feeds_count", "select count(*) from userfeeds where user_id = $1")
