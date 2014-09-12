@@ -43,7 +43,7 @@ gem 'fog'
 gem 'carrierwave'
 gem 'rails_12factor', group: :production
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
