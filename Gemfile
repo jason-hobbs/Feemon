@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-#ruby '2.1.2'
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
@@ -41,7 +41,7 @@ gem 'jquery-turbolinks'
 gem 'sitemap_generator'
 gem 'fog'
 gem 'carrierwave'
-
+gem 'rails_12factor', group: :production
 # Use unicorn as the app server
 # gem 'unicorn'
 
