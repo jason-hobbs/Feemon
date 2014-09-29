@@ -6778,3 +6778,1325 @@ I, [2014-09-23T09:48:06.054081 #21018]  INFO -- : Triggering 'feeds.rb'
 Running feeds.rb
 I, [2014-09-23T09:48:06.054197 #21018]  INFO -- : Triggering 'feeds_user.rb'
 Running feeds_user.rb
+I, [2014-09-23T09:58:06.179390 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T09:58:06.179496 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T10:08:06.309532 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T10:08:06.309696 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T10:08:06.309782 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T10:18:06.450032 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T10:18:06.450267 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T10:28:06.590051 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T10:28:06.590208 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T10:38:06.726469 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T10:38:06.726627 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T10:48:06.856230 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T10:48:06.856420 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T10:58:06.992896 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T10:58:06.993019 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T11:08:07.124228 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T11:08:07.124390 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T11:08:07.124475 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T11:18:07.269072 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T11:18:07.269234 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T11:28:07.400879 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T11:28:07.401044 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T11:38:07.530086 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T11:38:07.530258 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T11:48:07.663307 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T11:48:07.663403 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T11:58:07.787643 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T11:58:07.787780 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T12:08:07.928779 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T12:08:07.928938 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T12:08:07.929024 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T12:18:08.056430 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T12:18:08.056593 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T12:28:08.190643 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T12:28:08.190802 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T12:38:08.323420 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T12:38:08.323576 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T12:48:08.457274 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T12:48:08.457439 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T12:58:08.597297 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T12:58:08.597465 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T13:08:08.733759 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T13:08:08.733991 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T13:08:08.734081 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T13:18:08.868923 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T13:18:08.869111 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T13:28:09.000658 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T13:28:09.000889 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T13:38:09.120878 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T13:38:09.121076 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T13:48:09.253433 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T13:48:09.253599 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T13:58:09.384299 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T13:58:09.384455 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T14:04:28.463610 #21018]  INFO -- : Triggering 'clean.rb'
+Running clean.rb
+I, [2014-09-23T14:08:09.517118 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T14:08:09.517285 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T14:08:09.517402 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T14:18:09.647271 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T14:18:09.647430 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T14:28:09.778334 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T14:28:09.778457 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T14:38:09.907032 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T14:38:09.907200 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T14:48:10.041172 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T14:48:10.041374 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T14:58:10.178176 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T14:58:10.178299 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T15:08:10.312387 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T15:08:10.312556 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T15:08:10.312642 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T15:18:10.444573 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T15:18:10.444761 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T15:28:10.578580 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T15:28:10.578748 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T15:38:10.710883 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T15:38:10.711052 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T15:48:10.858130 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T15:48:10.858295 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T15:58:10.998730 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T15:58:10.998896 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T16:08:11.151512 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T16:08:11.151695 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T16:08:11.151781 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T16:18:11.291700 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T16:18:11.291836 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T16:28:11.437746 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T16:28:11.437944 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T16:38:11.607255 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T16:38:11.607414 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T16:48:11.739440 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T16:48:11.739593 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T16:58:11.871072 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T16:58:11.871228 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T17:08:12.011184 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T17:08:12.011360 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T17:08:12.011447 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T17:18:12.156940 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T17:18:12.157094 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T17:28:12.319525 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T17:28:12.319678 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T17:38:12.474480 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T17:38:12.474629 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T17:48:12.625021 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T17:48:12.625175 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T17:58:12.764827 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T17:58:12.764982 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T18:08:12.899769 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T18:08:12.899923 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T18:08:12.900009 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T18:18:13.036597 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T18:18:13.036779 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T18:28:13.178435 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T18:28:13.178597 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T18:38:13.322474 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T18:38:13.322632 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T18:48:13.469254 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T18:48:13.469415 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T18:58:13.613860 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T18:58:13.614017 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T19:08:13.761401 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T19:08:13.761556 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T19:08:13.761642 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T19:18:13.908299 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T19:18:13.908456 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T19:28:14.068822 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T19:28:14.068974 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T19:38:14.228349 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T19:38:14.228503 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T19:48:14.389185 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T19:48:14.389337 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T19:58:14.538705 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T19:58:14.538861 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T20:08:14.679319 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T20:08:14.679476 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T20:08:14.679562 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T20:18:14.809941 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T20:18:14.810094 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T20:28:14.944488 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T20:28:14.944642 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T20:38:15.098163 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T20:38:15.098318 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T20:48:15.236810 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T20:48:15.236965 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T20:58:15.378348 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T20:58:15.378501 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T21:08:15.519854 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T21:08:15.520010 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T21:08:15.520095 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T21:18:15.669579 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T21:18:15.669735 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T21:28:15.801856 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T21:28:15.802009 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T21:38:15.933136 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T21:38:15.933288 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T21:48:16.070235 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T21:48:16.070391 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T21:58:16.222278 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T21:58:16.222433 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T22:08:16.391168 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T22:08:16.391321 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T22:08:16.391407 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T22:18:16.543996 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T22:18:16.544149 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T22:28:16.693425 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T22:28:16.693578 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T22:38:16.842886 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T22:38:16.843039 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T22:48:16.991241 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T22:48:16.991409 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T22:58:17.141281 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T22:58:17.141436 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T23:08:17.278006 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T23:08:17.278162 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T23:08:17.278247 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-23T23:18:17.414059 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T23:18:17.414212 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T23:28:17.559492 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T23:28:17.559649 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T23:38:17.700784 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T23:38:17.700935 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T23:48:17.834992 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T23:48:17.835147 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-23T23:58:17.970879 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-23T23:58:17.971035 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T00:08:18.123745 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T00:08:18.123917 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T00:08:18.124003 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T00:18:18.280758 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T00:18:18.280911 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T00:28:18.422273 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T00:28:18.422428 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T00:38:18.565566 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T00:38:18.565721 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T00:48:18.715765 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T00:48:18.715919 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T00:58:18.854570 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T00:58:18.854725 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T01:08:18.989505 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T01:08:18.989661 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T01:08:18.989746 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T01:18:19.143009 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T01:18:19.143167 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T01:28:19.318820 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T01:28:19.318977 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T01:38:19.480324 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T01:38:19.480482 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T01:48:19.615789 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T01:48:19.615945 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T01:58:19.751089 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T01:58:19.751245 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T02:08:19.885616 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T02:08:19.885786 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T02:08:19.885870 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T02:18:20.016923 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T02:18:20.017077 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T02:28:20.154994 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T02:28:20.155148 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T02:38:20.299058 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T02:38:20.299215 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T02:48:20.438178 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T02:48:20.438335 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T02:58:20.583889 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T02:58:20.584046 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T03:08:20.740068 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T03:08:20.740225 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T03:08:20.740311 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T03:18:20.885654 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T03:18:20.885812 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T03:28:21.019887 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T03:28:21.020042 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T03:38:21.166509 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T03:38:21.166666 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T03:48:21.306842 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T03:48:21.307001 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T03:58:21.465044 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T03:58:21.465202 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T04:08:21.630656 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T04:08:21.630812 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T04:08:21.630897 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T04:18:21.761711 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T04:18:21.761868 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T04:28:21.911274 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T04:28:21.911431 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T04:38:22.060420 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T04:38:22.060575 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T04:48:22.202966 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T04:48:22.203124 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T04:58:22.344080 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T04:58:22.344236 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T05:08:22.489116 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T05:08:22.489267 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T05:08:22.489352 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T05:18:22.629533 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T05:18:22.629718 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T05:28:22.788149 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T05:28:22.788321 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T05:38:22.925016 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T05:38:22.925174 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T05:48:23.063078 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T05:48:23.063233 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T05:58:23.196390 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T05:58:23.196547 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T06:08:23.338017 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T06:08:23.338176 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T06:08:23.338274 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T06:18:23.501612 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T06:18:23.501769 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T06:28:23.649504 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T06:28:23.649660 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T06:38:23.804243 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T06:38:23.804416 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T06:48:23.954630 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T06:48:23.954796 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T06:58:24.088256 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T06:58:24.088408 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T07:08:24.215892 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T07:08:24.216052 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T07:08:24.216138 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T07:18:24.358104 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T07:18:24.358262 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T07:28:24.505320 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T07:28:24.505474 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T07:38:24.635184 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T07:38:24.635347 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T07:48:24.770012 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T07:48:24.770205 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T07:58:24.899222 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T07:58:24.899379 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T08:08:25.039934 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T08:08:25.040095 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T08:08:25.040181 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T08:18:25.170726 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T08:18:25.170888 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T08:28:25.308111 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T08:28:25.308277 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T08:38:25.439767 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T08:38:25.439959 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T08:48:25.563808 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T08:48:25.563986 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T08:58:25.703374 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T08:58:25.703534 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T09:08:25.842607 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T09:08:25.842774 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T09:08:25.842861 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T09:18:25.975797 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T09:18:25.975981 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T09:28:26.116582 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T09:28:26.116767 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T09:38:26.256124 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T09:38:26.256295 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T09:48:26.383536 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T09:48:26.383646 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T09:58:26.508273 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T09:58:26.508400 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T10:08:26.638390 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T10:08:26.638561 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T10:08:26.638665 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T10:18:26.769388 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T10:18:26.769544 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T10:28:26.909202 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T10:28:26.909358 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T10:38:27.043166 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T10:38:27.043334 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T10:48:27.173270 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T10:48:27.173437 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T10:58:27.309954 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T10:58:27.310119 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T11:08:27.451539 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T11:08:27.451677 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T11:08:27.451743 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T11:18:27.585444 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T11:18:27.585609 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T11:28:27.720805 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T11:28:27.720911 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T11:38:27.858904 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T11:38:27.859066 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T11:48:27.989569 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T11:48:27.989770 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T11:58:28.122822 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T11:58:28.122991 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T12:08:28.258620 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T12:08:28.258753 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T12:08:28.258790 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T12:18:28.392019 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T12:18:28.392210 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T12:28:28.532837 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T12:28:28.533001 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T12:38:28.673406 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T12:38:28.673571 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T12:48:28.811404 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T12:48:28.811563 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T12:58:28.944675 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T12:58:28.944875 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T13:08:29.079181 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T13:08:29.079342 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T13:08:29.079428 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T13:18:29.210339 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T13:18:29.210497 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T13:28:29.350223 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T13:28:29.350379 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T13:38:29.488022 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T13:38:29.488177 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T13:48:29.614097 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T13:48:29.614191 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T13:58:29.744711 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T13:58:29.744882 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T14:04:28.826225 #21018]  INFO -- : Triggering 'clean.rb'
+Running clean.rb
+I, [2014-09-24T14:08:29.883495 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T14:08:29.883606 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T14:08:29.883648 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T14:18:30.017237 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T14:18:30.017442 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T14:28:30.150715 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T14:28:30.150839 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T14:38:30.280360 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T14:38:30.280524 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T14:48:30.419973 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T14:48:30.420136 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T14:58:30.548363 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T14:58:30.548529 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T15:08:30.681898 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T15:08:30.682072 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T15:08:30.682160 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T15:18:30.821527 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T15:18:30.821699 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T15:28:30.945304 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T15:28:30.945473 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T15:38:31.063959 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T15:38:31.064110 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T15:48:31.199568 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T15:48:31.199677 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T15:58:31.330354 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T15:58:31.330513 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T16:08:31.465700 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T16:08:31.465861 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T16:08:31.465947 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T16:18:31.611532 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T16:18:31.611687 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T16:28:31.777669 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T16:28:31.777823 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T16:38:31.932803 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T16:38:31.932955 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T16:48:32.066726 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T16:48:32.066879 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T16:58:32.230251 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T16:58:32.230408 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T17:08:32.382619 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T17:08:32.382773 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T17:08:32.382859 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T17:18:32.549949 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T17:18:32.550105 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T17:28:32.703862 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T17:28:32.704018 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T17:38:32.857219 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T17:38:32.857375 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T17:48:33.002725 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T17:48:33.002882 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T17:58:33.162861 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T17:58:33.163016 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T18:08:33.314597 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T18:08:33.314754 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T18:08:33.314840 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T18:18:33.461768 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T18:18:33.461924 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T18:28:33.615529 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T18:28:33.615687 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T18:38:33.750107 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T18:38:33.750237 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T18:48:33.883496 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T18:48:33.883663 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T18:58:34.046340 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T18:58:34.046496 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T19:08:34.209747 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T19:08:34.209901 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T19:08:34.209987 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T19:18:34.364730 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T19:18:34.364887 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T19:28:34.502285 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T19:28:34.502457 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T19:38:34.654606 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T19:38:34.654763 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T19:48:34.796810 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T19:48:34.796984 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T19:58:34.921753 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T19:58:34.921909 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T20:08:35.063272 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T20:08:35.063430 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T20:08:35.063516 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T20:18:35.194549 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T20:18:35.194707 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T20:28:35.329492 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T20:28:35.329649 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T20:38:35.472358 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T20:38:35.472515 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T20:48:35.609052 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T20:48:35.609209 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T20:58:35.766414 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T20:58:35.766572 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T21:08:35.939419 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T21:08:35.939575 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T21:08:35.939661 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T21:18:36.102181 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T21:18:36.102340 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T21:28:36.258708 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T21:28:36.258866 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T21:38:36.404079 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T21:38:36.404238 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T21:48:36.548520 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T21:48:36.548677 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T21:58:36.710069 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T21:58:36.710228 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T22:08:36.849924 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T22:08:36.850094 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T22:08:36.850180 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T22:18:36.985451 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T22:18:36.985609 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T22:28:37.129550 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T22:28:37.129709 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T22:38:37.276235 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T22:38:37.276422 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T22:48:37.431589 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T22:48:37.431747 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T22:58:37.609991 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T22:58:37.610152 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T23:08:37.763674 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T23:08:37.763831 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T23:08:37.763917 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-24T23:18:37.911459 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T23:18:37.911618 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T23:28:38.048253 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T23:28:38.048409 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T23:38:38.184399 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T23:38:38.184559 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T23:48:38.339465 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T23:48:38.339622 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-24T23:58:38.481740 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-24T23:58:38.481897 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T00:08:38.637722 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T00:08:38.637881 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T00:08:38.637973 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T00:18:38.780847 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T00:18:38.781005 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T00:28:38.942652 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T00:28:38.942810 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T00:38:39.120137 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T00:38:39.120296 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T00:48:39.275474 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T00:48:39.275631 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T00:58:39.416242 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T00:58:39.416398 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T01:08:39.555386 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T01:08:39.555542 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T01:08:39.555628 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T01:18:39.702023 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T01:18:39.702179 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T01:28:39.830128 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T01:28:39.830285 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T01:38:39.962134 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T01:38:39.962289 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T01:48:40.100447 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T01:48:40.100604 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T01:58:40.268310 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T01:58:40.268463 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T02:08:40.411156 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T02:08:40.411312 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T02:08:40.411397 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T02:18:40.563986 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T02:18:40.564141 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T02:28:40.707811 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T02:28:40.707973 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T02:38:40.840060 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T02:38:40.840217 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T02:48:40.985892 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T02:48:40.986047 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T02:58:41.123145 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T02:58:41.123300 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T03:08:41.262684 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T03:08:41.262841 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T03:08:41.262926 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T03:18:41.420073 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T03:18:41.420228 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T03:28:41.596647 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T03:28:41.596891 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T03:38:41.751089 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T03:38:41.751245 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T03:48:41.899009 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T03:48:41.899165 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T03:58:42.054480 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T03:58:42.054636 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T04:08:42.217070 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T04:08:42.217225 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T04:08:42.217310 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T04:18:42.362860 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T04:18:42.363014 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T04:28:42.505974 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T04:28:42.506130 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T04:38:42.667231 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T04:38:42.667387 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T04:48:42.803216 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T04:48:42.803371 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T04:58:42.963832 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T04:58:42.963988 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T05:08:43.134991 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T05:08:43.135142 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T05:08:43.135228 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T05:18:43.284248 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T05:18:43.284401 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T05:28:43.425030 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T05:28:43.425183 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T05:38:43.567484 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T05:38:43.567634 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T05:48:43.718472 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T05:48:43.718626 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T05:58:43.853847 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T05:58:43.854002 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T06:08:43.990423 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T06:08:43.990575 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T06:08:43.990661 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T06:18:44.125419 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T06:18:44.125596 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T06:28:44.291434 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T06:28:44.291587 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T06:38:44.454924 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T06:38:44.455076 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T06:48:44.615609 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T06:48:44.615762 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T06:58:44.758013 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T06:58:44.758169 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T07:08:44.909809 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T07:08:44.909962 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T07:08:44.910077 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T07:18:45.061761 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T07:18:45.061917 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T07:28:45.209613 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T07:28:45.209723 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T07:38:45.346551 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T07:38:45.346703 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T07:48:45.484722 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T07:48:45.484936 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T07:58:45.617831 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T07:58:45.617951 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T08:08:45.749315 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T08:08:45.749487 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T08:08:45.749573 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T08:18:45.876249 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T08:18:45.876403 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T08:28:46.007610 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T08:28:46.007762 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T08:38:46.128803 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T08:38:46.128990 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T08:48:46.252429 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T08:48:46.252586 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T08:58:46.388676 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T08:58:46.388865 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T09:08:46.527034 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T09:08:46.527173 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T09:08:46.527216 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T09:18:46.658338 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T09:18:46.658504 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T09:28:46.788227 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T09:28:46.788391 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T09:38:46.919586 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T09:38:46.919730 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T09:48:47.051660 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T09:48:47.051821 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T09:58:47.185023 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T09:58:47.185143 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T10:08:47.333263 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T10:08:47.333436 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T10:08:47.333521 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T10:18:47.465706 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T10:18:47.465875 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T10:28:47.604652 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T10:28:47.604781 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T10:38:47.736129 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T10:38:47.736298 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T10:48:47.872556 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T10:48:47.872676 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T10:58:48.007337 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T10:58:48.007454 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T11:08:48.150463 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T11:08:48.150647 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T11:08:48.150734 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T11:18:48.292126 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T11:18:48.292296 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T11:28:48.435707 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T11:28:48.435868 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T11:38:48.567563 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T11:38:48.567728 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T11:48:48.700464 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T11:48:48.700566 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T11:58:48.832384 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T11:58:48.832544 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T12:08:48.964837 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T12:08:48.964998 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T12:08:48.965083 #21018]  INFO -- : Triggering 'topstories.rb'
+Running topstories.rb
+I, [2014-09-25T12:18:49.094677 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T12:18:49.094839 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
+I, [2014-09-25T12:28:49.229648 #21018]  INFO -- : Triggering 'feeds.rb'
+Running feeds.rb
+I, [2014-09-25T12:28:49.229798 #21018]  INFO -- : Triggering 'feeds_user.rb'
+Running feeds_user.rb
