@@ -79,15 +79,15 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           if desc
             desc.gsub!("&#63;", "?")
           end
-          if feedtitle == 'recode'
+          #if feedtitle == 'recode'
             testtitle = conn.exec_prepared("get_entry_title", [feedid.to_i, entry.title])
             #puts testtitle.getvalue(0,0)
             if testtitle.getvalue(0,0).to_i < 1
               conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
             end
-          else
-            conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
-          end
+            #else
+            #conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
+          #end
         end
       end
       conn.exec_prepared("update_feed_time", [time, lastupdated, feedid.to_i])
