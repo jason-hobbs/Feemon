@@ -1,0 +1,31 @@
+<div class="bodywrapper">
+<br>
+<div class="row columns">
+  <div class="small-4 columns">
+    <div class="panel" id="panel1"><h3>Personal</h3>
+      <div class="panel-contents">
+        Inbox<br>
+        Deleted Items
+      </div>
+    </div>
+    <div class="panel" id="panel2"><h3>Project Folders <%= link_to image_tag("folder-add2.png", {:size=>"25", :alt=>"New Project", :title=>"New Project", :style => "float: right; top: -4px; position: relative;"}), new_project_path %>
+</h3>
+            <div class="panel-contents">
+              <% @projects.each do |project| %>
+                <tr>
+                  <td><%= link_to image_tag("folder2.png", {:size=>"25" }), project_contents_path(project) %>
+<%= link_to project.name, project_contents_path(project) %></td><br>
+                </tr>
+              <% end %>
+            </div>
+    </div>
+  </div>
+
+
+
+  <div class="small-8 columns">
+    <div class="panel" id="panel2"><h3>Project Contents</h3>
+      <div class="panel-contents">test info 3</div>
+    </div>
+  </div>
+</div>
