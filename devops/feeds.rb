@@ -24,7 +24,7 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
     puts "#{url["id"]}: #{url["url"]}"
     feed = Feedjira::Feed.fetch_and_parse url["url"]
     count=0
-    if feed != 200
+    unless feed == 200 || feed.nil? || feed == 500
       feed.entries.each do |entry|
         if entry.content
           desc=entry.content
@@ -57,15 +57,9 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
             desc = desc.slice(0..(desc.index('><div class="feedflare">')))
           end
         end
-        #if feedtitle == 'Arstechnica'
-        #  if desc
-        #    desc = desc.slice(0..(desc.index('.<div class="feedflare">')))
-        #  end
-        #end
         unless entry.published
  	       entry.published = '19:00-01-01 00:00:00'
 	      end
-        # puts "test: #{1.day.ago.midnight} --- entry.published: #{entry.published.to_s}"
          if 1.day.ago.midnight < entry.published.to_s
           count+=1
           if feedid.to_i == 3
@@ -79,15 +73,10 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           if desc
             desc.gsub!("&#63;", "?")
           end
-          #if feedtitle == 'recode'
             testtitle = conn.exec_prepared("get_entry_title", [feedid.to_i, entry.title])
-            #puts testtitle.getvalue(0,0)
             if testtitle.getvalue(0,0).to_i < 1
               conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
             end
-            #else
-            #conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
-          #end
         end
       end
       conn.exec_prepared("update_feed_time", [time, lastupdated, feedid.to_i])
