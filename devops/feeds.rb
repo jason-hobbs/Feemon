@@ -70,6 +70,12 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           if entry.title
             entry.title.gsub!("&#63;", "?")
           end
+          if entry.title
+            entry.title.gsub!("&amp;", "&")
+          end
+          if desc
+            desc.gsub!("&amp;", "&")
+          end
           if desc
             desc.gsub!("&#63;", "?")
           end
