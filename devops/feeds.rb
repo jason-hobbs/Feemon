@@ -41,6 +41,7 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
             #desc.gsub!("/> ", "/> <br>")
             desc.gsub!(".png\"/>", ".png\"/><br>")
             desc.gsub!(".jpg\"/>", ".jpg\"/><br>")
+            desc.gsub!(".gif\"/>", ".gif\"/><br>")
             desc = desc.slice(0..(desc.index('><img src="http://feeds.feedburner.com/~ff/weblogsinc/')))
           end
         end
