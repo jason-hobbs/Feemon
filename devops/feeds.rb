@@ -38,7 +38,8 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
         end
         if feedtitle == 'Joystiq' || feedtitle == 'Engadget'
           if desc
-            desc.gsub!("/> ", "/> <br>")
+            #desc.gsub!("/> ", "/> <br>")
+            desc.gsub!(".png\"/>", ".png\"/><br>")
             desc.gsub!(".jpg\"/>", ".jpg\"/><br>")
             desc = desc.slice(0..(desc.index('><img src="http://feeds.feedburner.com/~ff/weblogsinc/')))
           end
