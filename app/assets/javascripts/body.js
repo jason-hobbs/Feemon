@@ -5,7 +5,7 @@ $('.entry-nav').click(function()
   $(this).addClass('active');
 });
 
-
+jQuery.extend($.gritter.options,{time:1000,});
 
 $(document).ready(
     function() {
