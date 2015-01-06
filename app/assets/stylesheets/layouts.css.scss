@@ -132,6 +132,8 @@ table {
     background-repeat: no-repeat;
     background-position: 2px 9px;
     background-size: 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 	height: 50px;
 	padding: 3px 2px 5px 13px;
 	/*padding-top: 7px;
