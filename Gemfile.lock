@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    CFPropertyList (2.2.8)
+    CFPropertyList (2.3.0)
     actionmailer (4.2.0)
       actionpack (= 4.2.0)
       actionview (= 4.2.0)
@@ -38,9 +38,9 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
-    bcrypt (3.1.9)
+    bcrypt (3.1.10)
     builder (3.2.2)
-    bullet (4.14.0)
+    bullet (4.14.2)
       activesupport (>= 3.0.0)
       uniform_notifier (>= 1.6.0)
     carrierwave (0.10.0)
@@ -54,10 +54,10 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.9.0)
     curb (0.8.6)
     erubis (2.7.0)
-    excon (0.42.1)
+    excon (0.43.0)
     execjs (2.2.2)
     feedjira (1.6.0)
       curb (~> 0.8)
@@ -65,15 +65,17 @@ GEM
       sax-machine (~> 1.0)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.26.0)
+    fog (1.27.0)
       fog-atmos
+      fog-aws (~> 0.0)
       fog-brightbox (~> 0.4)
-      fog-core (~> 1.27, >= 1.27.1)
+      fog-core (~> 1.27, >= 1.27.3)
       fog-ecloud
       fog-json
       fog-profitbricks
       fog-radosgw (>= 0.0.2)
       fog-sakuracloud (>= 0.0.4)
+      fog-serverlove
       fog-softlayer
       fog-storm_on_demand
       fog-terremark
@@ -85,11 +87,16 @@ GEM
     fog-atmos (0.1.0)
       fog-core
       fog-xml
+    fog-aws (0.0.8)
+      fog-core (~> 1.27)
+      fog-json (~> 1.0)
+      fog-xml (~> 0.1)
+      ipaddress (~> 0.8)
     fog-brightbox (0.7.1)
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
-    fog-core (1.27.2)
+    fog-core (1.27.4)
       builder
       excon (~> 0.38)
       formatador (~> 0.2)
@@ -109,10 +116,13 @@ GEM
       fog-core (>= 1.21.0)
       fog-json
       fog-xml (>= 0.0.1)
-    fog-sakuracloud (0.1.1)
+    fog-sakuracloud (1.0.0)
       fog-core
       fog-json
-    fog-softlayer (0.3.26)
+    fog-serverlove (0.1.1)
+      fog-core
+      fog-json
+    fog-softlayer (0.4.0)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.0)
@@ -152,14 +162,14 @@ GEM
     jquery-turbolinks (2.1.0)
       railties (>= 3.1.0)
       turbolinks
-    json (1.8.1)
+    json (1.8.2)
     loofah (2.0.1)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
     mini_portile (0.6.2)
-    minitest (5.5.0)
+    minitest (5.5.1)
     mobileesp_converted (0.2.3)
     mobvious (0.3.2)
       mobileesp_converted (~> 0.2.0)
@@ -167,13 +177,13 @@ GEM
     multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (2.9.1)
+    net-ssh (2.9.2)
     newrelic_rpm (3.9.9.275)
-    nokogiri (1.6.5)
+    nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     pg (0.18.1)
     rack (1.6.0)
-    rack-test (0.6.2)
+    rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.0)
       actionmailer (= 4.2.0)
@@ -202,9 +212,9 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.2.0)
-    responders (2.0.2)
-      railties (>= 4.2.0.alpha, < 5)
-    ruby-prof (0.15.2)
+    responders (2.1.0)
+      railties (>= 4.2.0, < 5)
+    ruby-prof (0.15.3)
     sass (3.3.14)
     sass-rails (5.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -212,7 +222,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (~> 1.1)
-    sax-machine (1.2.0)
+    sax-machine (1.3.0)
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -224,7 +234,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.2.2)
+    sprockets-rails (2.2.4)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -236,7 +246,7 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (2.6.1)
+    uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     uniform_notifier (1.6.2)
