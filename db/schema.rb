@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20140626012701) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "dashboards", force: true do |t|
+  create_table "dashboards", force: :cascade do |t|
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20140626012701) do
   add_index "dashboards", ["feed_id"], name: "index_dashboards_on_feed_id", using: :btree
   add_index "dashboards", ["user_id"], name: "index_dashboards_on_user_id", using: :btree
 
-  create_table "entries", force: true do |t|
+  create_table "entries", force: :cascade do |t|
     t.text     "title"
     t.text     "description"
     t.text     "link"
@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20140626012701) do
 
   add_index "entries", ["feed_id"], name: "index_entries_on_feed_id", using: :btree
 
-  create_table "feeds", force: true do |t|
+  create_table "feeds", force: :cascade do |t|
     t.string   "title"
     t.string   "site"
     t.string   "url"
@@ -56,7 +56,7 @@ ActiveRecord::Schema.define(version: 20140626012701) do
 
   add_index "feeds", ["user_id"], name: "index_feeds_on_user_id", using: :btree
 
-  create_table "topstories", force: true do |t|
+  create_table "topstories", force: :cascade do |t|
     t.integer  "entry_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -64,7 +64,7 @@ ActiveRecord::Schema.define(version: 20140626012701) do
 
   add_index "topstories", ["entry_id"], name: "index_topstories_on_entry_id", using: :btree
 
-  create_table "userfeeds", force: true do |t|
+  create_table "userfeeds", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "feed_id"
     t.datetime "created_at"
@@ -74,7 +74,7 @@ ActiveRecord::Schema.define(version: 20140626012701) do
   add_index "userfeeds", ["feed_id"], name: "index_userfeeds_on_feed_id", using: :btree
   add_index "userfeeds", ["user_id"], name: "index_userfeeds_on_user_id", using: :btree
 
-  create_table "users", force: true do |t|
+  create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
     t.string   "password_digest"
