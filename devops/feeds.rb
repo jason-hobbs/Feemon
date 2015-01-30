@@ -6,8 +6,8 @@ require 'action_view'
 
 conn = PG.connect(
         :dbname => 'feemon',
-        :user => 'root',
-        :password => 'naginata')
+        :user => 'test',
+        :password => 'test')
 
 conn.prepare("insert_entry", "insert into entries (title, description, link, feed_id, published, created_at, updated_at) values ($1, $2, $3, $4, $5, $6, $7)")
 conn.prepare("update_feed_time", "update feeds set updated_at = $1, prevupdate = $2 where id = $3")

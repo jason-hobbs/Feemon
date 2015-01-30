@@ -5,8 +5,8 @@ require "active_support/all"
 
 conn = PG.connect(
         :dbname => 'feemon',
-        :user => 'root',
-        :password => 'naginata')
+        :user => 'test',
+        :password => 'test')
 
 conn.prepare("insert_entry", "insert into topstories (entry_id) values ($1)")
 

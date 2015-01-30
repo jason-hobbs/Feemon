@@ -3,8 +3,8 @@ require "active_support/all"
 
 conn = PG.connect(
         :dbname => 'feemon',
-        :user => 'root',
-        :password => 'naginata')
+        :user => 'test',
+        :password => 'test')
 
 conn.prepare("get_user_feeds", "select feed_id from userfeeds where user_id = $1")
 conn.prepare("get_user_feeds_count", "select count(*) from userfeeds where user_id = $1")
