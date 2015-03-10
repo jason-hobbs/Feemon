@@ -77,11 +77,17 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           if entry.title
             entry.title.gsub!("&amp;", "&")
           end
+          if entry.title
+            entry.title.gsub!("&rsquo;", "'")
+          end
           if desc
             desc.gsub!("&amp;", "&")
           end
           if desc
             desc.gsub!("&#63;", "?")
+          end
+          if desc
+            desc.gsub!("&rsquo;", "'")
           end
             testtitle = conn.exec_prepared("get_entry_title", [feedid.to_i, entry.title])
             if testtitle.getvalue(0,0).to_i < 1
