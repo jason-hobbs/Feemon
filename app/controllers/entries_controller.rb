@@ -4,7 +4,7 @@ class EntriesController < ApplicationController
   #before_action :get_counts, only: [:show]
 
   def show
-	  @entry = @feed.entries.find_by(id: params[:id])        
+	  @entry = @feed.entries.find_by(id: params[:id])
     @dash = Dashboard.find_by(user_id: @user.id, entry_id: @entry.id )
     @dash.update(read: "TRUE")
     @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc)
@@ -16,10 +16,6 @@ class EntriesController < ApplicationController
 
   def index
     @entries = @feed.entries.order(published: :desc)
-  end
-
-  def edit
-
   end
 
   private
