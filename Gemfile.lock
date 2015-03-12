@@ -56,6 +56,9 @@ GEM
       execjs
     coffee-script-source (1.9.1)
     curb (0.8.6)
+    dotenv (2.0.0)
+    dotenv-rails (2.0.0)
+      dotenv (= 2.0.0)
     erubis (2.7.0)
     excon (0.44.4)
     execjs (2.4.0)
@@ -264,6 +267,7 @@ DEPENDENCIES
   bullet
   carrierwave
   coffee-rails
+  dotenv-rails
   feedjira
   fog
   foundation-rails
