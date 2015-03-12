@@ -5,7 +5,7 @@ require "active_support/all"
 require 'action_view'
 
 conn = PG.connect(
-        :dbname => 'feemon',
+        :dbname => ENV['DATABASE_NAME'],
         :user => ENV['DATABASE_USER'],
         :password => ENV['DATABASE_PASSWORD'])
 
