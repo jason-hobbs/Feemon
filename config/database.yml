@@ -6,7 +6,7 @@ default: &default
 
 development:
   <<: *default
-  database: feemon_development
+  database: <%= ENV['DATABASE_NAME'] %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,4 +17,4 @@ test:
 
 production:
   <<: *default
-  database: feemon
+  database: <%= ENV['DATABASE_NAME'] %>
