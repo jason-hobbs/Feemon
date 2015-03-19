@@ -44,7 +44,6 @@ gem 'sitemap_generator'
 gem 'fog'
 gem 'carrierwave'
 gem 'responders'
-gem 'profile_it'
 #gem 'rails_12factor', group: :production
 # Use unicorn as the app server
 #gem 'unicorn'
