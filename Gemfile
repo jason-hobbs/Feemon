@@ -43,7 +43,6 @@ gem 'jquery-turbolinks'
 gem 'sitemap_generator'
 gem 'fog'
 gem 'carrierwave'
-gem 'newrelic_rpm'
 gem 'responders'
 gem 'profile_it'
 #gem 'rails_12factor', group: :production
