@@ -38,7 +38,7 @@ def create
 
 	def edit
   		@user = User.find(params[:id])
-      @feeds = Feed.all
+      @feeds = Feed.order(:title)
 	end
 
 	def update
