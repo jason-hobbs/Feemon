@@ -10,6 +10,13 @@
   <%= @user.email %>
 </p>
 
+<div class="small-12 medium-5 panel callout radius">
+  <p>Click the 'edit' button to add websites to keep track of.
+    After hitting the 'Update Account' to save what sites you picked,
+    Click 'dashboard' on the top nav bar to go to your personal page.
+  </p>
+</div>
+
 <%= link_to 'Edit', edit_user_path(@user), class: "button tiny radius" %>
 <%= link_to 'Logout', logout_path, method: :delete, :class => "button tiny radius" %>
 <% if current_user_admin? %>
