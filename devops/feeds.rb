@@ -24,7 +24,7 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
     puts "#{url["id"]}: #{url["url"]}"
     feed = Feedjira::Feed.fetch_and_parse url["url"]
     count=0
-    unless feed == 200 || feed.nil? || feed == 500
+    unless feed.nil? || feed == 500
       feed.entries.each do |entry|
         if entry.content
           desc=entry.content
