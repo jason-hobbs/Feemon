@@ -250,6 +250,8 @@ GEM
       rdoc (~> 4.0)
     sitemap_generator (5.0.5)
       builder
+    skylight (0.6.0)
+      activesupport (>= 3.0.0)
     spring (1.3.4)
     sprockets (3.0.2)
       rack (~> 1.0)
@@ -296,6 +298,7 @@ DEPENDENCIES
   sass-rails
   sdoc
   sitemap_generator
+  skylight
   spring
   truncate_html
   turbolinks!
