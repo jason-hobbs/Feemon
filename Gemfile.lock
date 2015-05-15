@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/turbolinks.git
-  revision: 5f4c27db2747c7c997403791e57141446038d48d
+  revision: d2e5b4863a2425155d050b965778d8550d8958e1
   specs:
     turbolinks (3.0.0)
       coffee-rails
@@ -47,7 +47,7 @@ GEM
     arel (6.0.0)
     bcrypt (3.1.10)
     builder (3.2.2)
-    bullet (4.14.5)
+    bullet (4.14.7)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.9.0)
     carrierwave (0.10.0)
@@ -75,12 +75,13 @@ GEM
       sax-machine (~> 1.0)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.29.0)
+    fog (1.30.0)
       fog-atmos
       fog-aws (~> 0.0)
       fog-brightbox (~> 0.4)
       fog-core (~> 1.27, >= 1.27.4)
       fog-ecloud
+      fog-google (>= 0.0.2)
       fog-json
       fog-local
       fog-powerdns (>= 0.1.1)
@@ -100,7 +101,7 @@ GEM
     fog-atmos (0.1.0)
       fog-core
       fog-xml
-    fog-aws (0.1.2)
+    fog-aws (0.2.2)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
@@ -118,6 +119,10 @@ GEM
       net-ssh (>= 2.1.3)
     fog-ecloud (0.1.1)
       fog-core
+      fog-xml
+    fog-google (0.0.5)
+      fog-core
+      fog-json
       fog-xml
     fog-json (1.0.1)
       fog-core (~> 1.0)
@@ -146,7 +151,7 @@ GEM
     fog-serverlove (0.1.2)
       fog-core
       fog-json
-    fog-softlayer (0.4.5)
+    fog-softlayer (0.4.6)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.1)
@@ -165,7 +170,7 @@ GEM
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
     formatador (0.2.5)
-    foundation-rails (5.5.1.2)
+    foundation-rails (5.5.2.1)
       railties (>= 3.1.0)
       sass (>= 3.3.0, < 3.5)
     globalid (0.3.5)
@@ -186,13 +191,13 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.2)
-    loofah (2.0.1)
+    loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.4.3)
+    mime-types (2.5)
     mini_portile (0.6.2)
-    minitest (5.6.0)
+    minitest (5.6.1)
     mobileesp_converted (0.2.3)
     mobvious (0.3.2)
       mobileesp_converted (~> 0.2.0)
@@ -203,8 +208,8 @@ GEM
     net-ssh (2.9.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
-    pg (0.18.1)
-    rack (1.6.0)
+    pg (0.18.2)
+    rack (1.6.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.1)
@@ -226,7 +231,7 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
-    rails-perftest (0.0.5)
+    rails-perftest (0.0.6)
     railties (4.2.1)
       actionpack (= 4.2.1)
       activesupport (= 4.2.1)
@@ -236,7 +241,7 @@ GEM
     rdoc (4.2.0)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
-    ruby-prof (0.15.7)
+    ruby-prof (0.15.8)
     sass (3.4.13)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -252,10 +257,10 @@ GEM
       builder
     skylight (0.6.0)
       activesupport (>= 3.0.0)
-    spring (1.3.4)
-    sprockets (3.0.2)
+    spring (1.3.6)
+    sprockets (3.1.0)
       rack (~> 1.0)
-    sprockets-rails (2.2.4)
+    sprockets-rails (2.3.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
