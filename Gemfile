@@ -45,6 +45,11 @@ gem 'sitemap_generator'
 gem 'fog'
 gem 'carrierwave'
 gem 'responders'
+group :development do
+  gem "rails-erd"
+end
+
+
 #gem 'rails_12factor', group: :production
 # Use unicorn as the app server
 #gem 'unicorn'
