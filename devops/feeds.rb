@@ -20,9 +20,18 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
     feedtitle = url["title"]
     lastupdated = url["updated_at"]
     time = Time.now.utc
+
+    unless url["url"].include?("http://") || url["url"].include?("https://")
+      feedurl = "http://" + url["url"]
+    else
+      feedurl = url["url"]
+    end
+
+
     puts "current time: #{time}"
-    puts "#{url["id"]}: #{url["url"]}"
-    feed = Feedjira::Feed.fetch_and_parse url["url"]
+    puts "#{url["id"]}: #{feedurl}"
+    #feed = Feedjira::Feed.fetch_and_parse url["url"]
+    feed = Feedjira::Feed.fetch_and_parse feedurl
     count=0
     unless feed == 200 || feed.nil? || feed == 500
       feed.entries.each do |entry|
