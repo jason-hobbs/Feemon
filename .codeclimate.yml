@@ -3,5 +3,5 @@ languages:
   Ruby: true
   JavaScript: true
   PHP: true
-# exclude_paths:
-# - "foo/bar.rb"
+exclude_paths:
+- "public/assets/vendor/modernizr-359ba16ac48efa1d2ed509af228d00a8.js"
