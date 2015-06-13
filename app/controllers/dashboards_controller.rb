@@ -11,7 +11,8 @@ class DashboardsController < ApplicationController
 
 
   def dashfeed
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(75).includes(:entry)
+    get_unread(75)
+    #@unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(75).includes(:entry)
   end
 
   def markall
@@ -20,7 +21,8 @@ class DashboardsController < ApplicationController
   end
 
   def grid
-    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(25).includes(:entry)
+    get_unread(25)
+    #@unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(25).includes(:entry)
   end
 
   private
@@ -36,6 +38,10 @@ class DashboardsController < ApplicationController
 
   def get_feed
     @feed = Feed.find(params[:feed_id])
+  end
+
+  def get_unread(lim)
+    @unread = @user.dashboards.where("feed_id = ?", params[:feed_id]).order(entry_published: :desc).limit(lim).includes(:entry)
   end
 
   def require_correct_user
