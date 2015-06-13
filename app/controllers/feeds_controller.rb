@@ -60,6 +60,15 @@ class FeedsController < ApplicationController
   # DELETE /feeds/1
   # DELETE /feeds/1.json
   def destroy
+    #@entries = Entry.where(feed_id: @feed.id)
+    #@entries.each do |entry|
+    #  entry.destroy
+    #end
+    #@dashboards = Dashboard.where(feed_id: @feed.id)
+    #@dashboards.each do |dashboard|
+    #  dashboard.destroy
+    #end
+    #@feed.destroy
     @feed.destroy
     respond_to do |format|
       format.html { redirect_to feeds_url, notice: 'Feed was successfully destroyed.' }

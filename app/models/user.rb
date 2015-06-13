@@ -1,12 +1,12 @@
 class User < ActiveRecord::Base
   has_secure_password
   validates :name, presence: true
-  validates :email, presence: true,                   
+  validates :email, presence: true,
                   format: /\A\S+@\S+\z/,
                   uniqueness: { case_sensitive: false }
-  has_many :userfeeds, dependent: :destroy
+  has_many :userfeeds
   has_many :feeds, through: :userfeeds
-  has_many :dashboards, dependent: :destroy
+  has_many :dashboards
 
   def gravatar_id
   	Digest::MD5::hexdigest(email.downcase)
