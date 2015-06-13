@@ -32,29 +32,33 @@ class FeedsController < ApplicationController
   def create
     @feed = Feed.new(feed_params)
 
-    respond_to do |format|
+    #respond_to do |format|
       if @feed.save
-        format.html { redirect_to @feed, notice: 'Feed was successfully created.' }
-        format.json { render :show, status: :created, location: @feed }
+        redirect_to @feed, notice: 'Feed was successfully created.'
+        #format.html { redirect_to @feed, notice: 'Feed was successfully created.' }
+        #format.json { render :show, status: :created, location: @feed }
       else
-        format.html { render :new }
-        format.json { render json: @feed.errors, status: :unprocessable_entity }
-      end
+        render :new
+        #format.html { render :new }
+        #format.json { render json: @feed.errors, status: :unprocessable_entity }
+      #end
     end
   end
 
   # PATCH/PUT /feeds/1
   # PATCH/PUT /feeds/1.json
   def update
-    respond_to do |format|
+    #respond_to do |format|
       if @feed.update(feed_params)
-        format.html { redirect_to @feed, notice: 'Feed was successfully updated.' }
-        format.json { render :show, status: :ok, location: @feed }
+        redirect_to @feed, notice: 'Feed was successfully updated.'
+        #format.html { redirect_to @feed, notice: 'Feed was successfully updated.' }
+        #format.json { render :show, status: :ok, location: @feed }
       else
-        format.html { render :edit }
-        format.json { render json: @feed.errors, status: :unprocessable_entity }
+        render :edit
+        #format.html { render :edit }
+        #format.json { render json: @feed.errors, status: :unprocessable_entity }
       end
-    end
+    #end
   end
 
   # DELETE /feeds/1
@@ -70,10 +74,11 @@ class FeedsController < ApplicationController
     #end
     #@feed.destroy
     @feed.destroy
-    respond_to do |format|
-      format.html { redirect_to feeds_url, notice: 'Feed was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    #respond_to do |format|
+      redirect_to feeds_url, notice: 'Feed was successfully destroyed.'
+      #format.html { redirect_to feeds_url, notice: 'Feed was successfully destroyed.' }
+      #format.json { head :no_content }
+    #end
   end
 
   private
