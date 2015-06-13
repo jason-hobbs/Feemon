@@ -1,3 +1,3 @@
-[![Code Climate](https://codeclimate.com/github/jason-hobbs/Feemon/badges/gpa.svg)](https://codeclimate.com/github/jason-hobbs/Feemon)
-[ ![Codeship Status for jason-hobbs/Feemon](https://codeship.com/projects/1ac7b4e0-e3f4-0132-2cdb-16773c71d38d/status?branch=master)](https://codeship.com/projects/81767)
+{<img src="https://codeclimate.com/github/jason-hobbs/Feemon/badges/gpa.svg" />}[https://codeclimate.com/github/jason-hobbs/Feemon]
+{<img alt="Status?branch=master" src="https://codeship.com/projects/1ac7b4e0-e3f4-0132-2cdb-16773c71d38d/status?branch=master" />}[https://codeship.com/projects/81767]
 Feemon main application
