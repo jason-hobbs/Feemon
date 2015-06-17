@@ -20,6 +20,7 @@ config/profile_it.yml
 config/initializers/secret_token.rb
 #config/secrets.yml
 #config/database.yml
+config/newrelic.yml
 
 ## Environment normalisation:
 /.bundle

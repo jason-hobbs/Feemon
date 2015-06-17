@@ -46,6 +46,7 @@ gem 'sitemap_generator'
 gem 'fog'
 gem 'carrierwave'
 gem 'responders'
+gem 'newrelic_rpm'
 group :development do
   gem "rails-erd"
 end
