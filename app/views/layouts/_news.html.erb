@@ -1,7 +1,7 @@
 <div class="bodywrapper">
 
 <div class='news-container'>
-<% cache(cache_key_for_topstories) do %>
+<% cache("top_stories", :expires_in => 1.hour) do %>
   <% @topstories.each do |story| %>
     <div class='news-story'>
       <p><%= link_to story.entry.title, story.entry.link, :target => '_blank' %></p>
