@@ -21,4 +21,5 @@
 //$(function(){ $(document).foundation(); });
 window.onload = function() {
         $(document).foundation();
+        Turbolinks.ProgressBar.disable();
 };

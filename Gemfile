@@ -50,7 +50,8 @@ gem 'newrelic_rpm'
 group :development do
   gem "rails-erd"
 end
-
+gem 'rack-mini-profiler'
+gem 'thin'
 
 #gem 'rails_12factor', group: :production
 # Use unicorn as the app server
