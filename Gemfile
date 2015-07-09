@@ -33,6 +33,7 @@ gem 'foundation-rails'
 gem 'gritter'
 gem 'bullet', group: :development
 gem 'rails-perftest'
+gem 'skylight'
 gem 'ruby-prof'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
