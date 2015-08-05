@@ -33,7 +33,6 @@ gem 'foundation-rails'
 gem 'gritter'
 gem 'bullet', group: :development
 gem 'rails-perftest'
-gem 'skylight'
 gem 'ruby-prof'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
@@ -48,6 +47,7 @@ gem 'fog'
 gem 'carrierwave'
 gem 'responders'
 gem 'newrelic_rpm'
+gem 'rollbar', '~> 2.1.1'
 group :development do
   gem "rails-erd"
 end
