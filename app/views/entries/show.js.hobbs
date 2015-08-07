@@ -1,0 +1,4 @@
+$("#right").empty();
+//setTimeout(function(){$("#right").empty()}, 3000);
+$("<%= escape_javascript(render @entry) %>").appendTo("#right");
+//setTimeout(function(){$("<%= escape_javascript(render @entry) %>").appendTo("#right")}, 1000);
