@@ -53,6 +53,7 @@ group :development do
 end
 gem 'rack-mini-profiler'
 gem 'thin'
+gem 'profile_it', '~> 0.2.9'
 
 #gem 'rails_12factor', group: :production
 # Use unicorn as the app server
