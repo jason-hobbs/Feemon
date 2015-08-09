@@ -1,6 +1,7 @@
 namespace :assets do
   task :gzip do
     require 'zlib'
+    require 'rake'
 
     Dir['public/assets/**/*.{js,css}'].each do |path|
       gz_path = "#{path}.gz"
