@@ -1,5 +1,6 @@
 namespace :assets do
-  task :gzip do
+  desc "TODO"
+  task asset_sync: :environment do
     require 'zlib'
     require 'rake'
 
@@ -19,4 +20,9 @@ namespace :assets do
   task :sync => [:environment, :gzip] do
     AssetSync.sync
   end
+
+
+
+
+
 end

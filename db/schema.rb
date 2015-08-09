@@ -45,13 +45,13 @@ ActiveRecord::Schema.define(version: 20140626012701) do
   add_index "entries", ["feed_id"], name: "index_entries_on_feed_id", using: :btree
 
   create_table "feeds", force: :cascade do |t|
-    t.string   "title"
-    t.string   "site"
-    t.string   "url"
+    t.string   "title",      limit: 255
+    t.string   "site",       limit: 255
+    t.string   "url",        limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
-    t.datetime "prevupdate", default: '1900-01-01 00:00:00'
+    t.datetime "prevupdate",             default: '1900-01-01 00:00:00'
   end
 
   add_index "feeds", ["user_id"], name: "index_feeds_on_user_id", using: :btree
@@ -75,13 +75,13 @@ ActiveRecord::Schema.define(version: 20140626012701) do
   add_index "userfeeds", ["user_id"], name: "index_userfeeds_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password_digest"
+    t.string   "name",            limit: 255
+    t.string   "email",           limit: 255
+    t.string   "password_digest", limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "admin",           default: false
-    t.datetime "lastvisit",       default: '1900-01-01 00:00:00'
+    t.boolean  "admin",                       default: false
+    t.datetime "lastvisit",                   default: '1900-01-01 00:00:00'
   end
 
 end
