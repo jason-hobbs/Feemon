@@ -70,6 +70,9 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           if desc
             desc = desc.slice(0..(desc.index('><div class="feedflare">')))
           end
+          if desc
+            desc = desc.slice(0..(desc.index('<br><br>')))
+          end
         end
         unless entry.published
  	       entry.published = '19:00-01-01 00:00:00'
