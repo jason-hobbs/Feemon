@@ -32,7 +32,6 @@ gem 'fog'
 gem 'carrierwave'
 gem 'responders'
 gem 'newrelic_rpm'
-gem 'rollbar', '~> 2.1.1'
 group :development do
   gem "rails-erd"
 end
