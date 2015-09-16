@@ -104,7 +104,9 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           end
             testtitle = conn.exec_prepared("get_entry_title", [feedid.to_i, entry.title])
             if testtitle.getvalue(0,0).to_i < 1
-              conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
+              unless testtitle.include?("/feeds/16/entries/")
+                conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
+              end
             end
         end
       end
