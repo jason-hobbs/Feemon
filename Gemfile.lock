@@ -265,7 +265,6 @@ GEM
     rdoc (4.2.0)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
-    rollbar (2.1.2)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
       rspec-expectations (~> 3.3.0)
@@ -343,7 +342,6 @@ DEPENDENCIES
   rails-erd
   rails-perftest
   responders
-  rollbar (~> 2.1.1)
   rspec
   ruby-prof
   sass

@@ -4,11 +4,11 @@
   <% onetime = 0 %>
   <% twotime = 0 %>
   <% @unread.each do |entry| %>
-    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < 1.day.ago.midnight and twotime == 0 %>
+    <% if entry.entry.published < 1.day.ago.midnight and twotime == 0 %>
       <% twotime = 1 %>
       <div class='day'>Earlier</div>
     <% end %>
-    <% if entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") < Date.today.midnight and entry.entry.published.to_time.strftime("%B #{entry.entry.published.to_time.day.ordinalize}, %Y %I:%M %p") > 1.day.ago.midnight and onetime == 0 %>
+    <% if entry.entry.published < Date.today.midnight && entry.entry.published > 1.day.ago.midnight && onetime == 0 %>
       <% onetime = 1 %>
       <div class='day'>Yesterday</div>
     <% end %>
