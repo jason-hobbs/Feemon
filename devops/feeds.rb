@@ -72,6 +72,7 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           end
           if desc
             #desc = desc.slice(0..(desc.index('<br><br>')))
+            desc = desc.slice(0..(desc.index('<hr style="height: 1px; border-style: none; color: #666666; background-color: #666666;">')))            
           end
         end
         unless entry.published
