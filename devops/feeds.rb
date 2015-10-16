@@ -72,7 +72,7 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           end
           if desc
             #desc = desc.slice(0..(desc.index('<br><br>')))
-            desc = desc.slice(0..(desc.index('<hr style=')))            
+            desc = desc.slice(0..(desc.index('<hr style=')))
           end
         end
         unless entry.published
@@ -105,7 +105,7 @@ conn.exec( "SELECT title,id,url,updated_at FROM feeds" ) do |result|
           end
             testtitle = conn.exec_prepared("get_entry_title", [feedid.to_i, entry.title])
             if testtitle.getvalue(0,0).to_i < 1
-              unless testtitle.include?("/feeds/16/entries/")
+              unless testtitle.include?("/feeds/16/entries/") || testtitle.include?("http://gizmodo.com/")
                 conn.exec_prepared("insert", [entry.title, desc, entry.url, feedid.to_i, pub, time, time])
               end
             end
