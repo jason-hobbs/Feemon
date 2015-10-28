@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/turbolinks.git
-  revision: 83d4b3d2c52a681f07900c28adb28bc8da604733
+  revision: 90d4132be6275edd997beeb66bf3876b0207291d
   specs:
     turbolinks (3.0.0)
       coffee-rails
@@ -47,7 +47,7 @@ GEM
     arel (6.0.3)
     bcrypt (3.1.10)
     builder (3.2.2)
-    bullet (4.14.9)
+    bullet (4.14.10)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.9.0)
     carrierwave (0.10.0)
@@ -222,7 +222,7 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.6.2)
     mini_portile (0.6.2)
-    minitest (5.8.1)
+    minitest (5.8.2)
     mobileesp_converted (0.2.3)
     mobvious (0.3.2)
       mobileesp_converted (~> 0.2.0)
