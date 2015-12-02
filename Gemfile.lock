@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/turbolinks.git
-  revision: 75115a3c217f54b447b780061ae0279abae1f146
+  revision: ad583843fdaa0c1f61462a346a495981ca314460
   specs:
     turbolinks (3.0.0)
       coffee-rails
@@ -124,7 +124,7 @@ GEM
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-brightbox (0.9.0)
+    fog-brightbox (0.10.1)
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
@@ -218,7 +218,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99)
-    mini_portile (0.6.2)
+    mini_portile2 (2.0.0)
     minitest (5.8.3)
     mobileesp_converted (0.2.3)
     mobvious (0.3.2)
@@ -227,8 +227,8 @@ GEM
     multi_json (1.11.2)
     multipart-post (2.0.0)
     newrelic_rpm (3.14.0.305)
-    nokogiri (1.6.6.4)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.6.7)
+      mini_portile2 (~> 2.0.0.rc2)
     pg (0.18.4)
     rack (1.6.4)
     rack-mini-profiler (0.9.8)
@@ -297,7 +297,7 @@ GEM
       rdoc (~> 4.0)
     sitemap_generator (5.1.0)
       builder
-    spring (1.4.4)
+    spring (1.5.0)
     sprockets (3.4.1)
       rack (> 1, < 3)
     sprockets-rails (2.3.3)
