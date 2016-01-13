@@ -15,7 +15,7 @@ gem 'turbolinks', :git => 'https://github.com/rails/turbolinks.git'
 gem 'jbuilder'
 gem 'sdoc',          group: :doc
 gem 'spring',        group: :development
-gem 'foundation-rails'
+gem 'foundation-rails', '=5.5.3.2'
 gem 'gritter'
 gem 'bullet', group: :development
 gem 'rails-perftest'
