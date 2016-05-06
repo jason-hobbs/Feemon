@@ -32,6 +32,7 @@ gem 'fog'
 gem 'carrierwave'
 gem 'responders'
 gem 'newrelic_rpm'
+gem 'goldiloader'
 group :development do
   gem "rails-erd"
 end
