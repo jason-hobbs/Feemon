@@ -18,8 +18,8 @@ gem 'spring',        group: :development
 gem 'foundation-rails', '=5.5.3.2'
 gem 'gritter'
 gem 'bullet', group: :development
-gem 'rails-perftest'
-gem 'ruby-prof'
+#gem 'rails-perftest'
+#gem 'ruby-prof'
 gem 'bcrypt'
 gem 'feedjira'
 gem 'mobvious'
